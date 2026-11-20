@@ -1,0 +1,1037 @@
+[
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ya göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+  "denetle": [],
+  "kor_kod": "Y001"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz, sağlıklı bir yaşam için önemlidir; fiziksel sağlığı iyileştirirken zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet, etkili, erişilebilir ve sürdürülebilir seçenekler arasındadır. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Egzersiz, hayatımızın vazgeçilmez bir parçası olmalıdır.",
+  "denetle": [],
+  "kor_kod": "Y002"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz, sağlıklı bir yaşam için büyük önem taşır. Yalnızca fiziksel sağlığı iyileştirmekle kalmaz, zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet gibi aktiviteler hem etkili hem de kolay erişilebilir ve sürdürülebilir seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Bu doğrultuda egzersiz, hayatımızın bir parçası hâline gelmelidir.",
+  "denetle": [
+   {
+    "tur": "AI-Tier1",
+    "mesaj": "Tier-1 klişe: 'önem taşımaktadır' yerine doğrudan 'kritiktir / belirleyicidir' kullan",
+    "ornek": "büyük önem taşır"
+   },
+   {
+    "tur": "AI-Tier1",
+    "mesaj": "Tier-1 geçiş klişesi: gerekmiyorsa sil",
+    "ornek": "Bu doğrultuda"
+   },
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.23); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[9, 10, 15, 11, 8]"
+   }
+  ],
+  "kor_kod": "Y003"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması talebi\n\nİlgi: [İLGİLİ MAHALLE / SOKAK BİLGİSİ]\n\n[MAHALLE ADI] Mahallesi, [SOKAK ADI] Sokak'ta ikamet etmekteyim. Oturduğum sokaktaki sokak lambası yaklaşık üç haftadır yanmamaktadır. Bu nedenle akşam saatlerinde sokak karanlık kalmakta, bu durum özellikle yayalar için güvenlik açısından tehlike oluşturmaktadır.\n\nGereğinin yapılarak söz konusu sokak lambasının en kısa sürede onarılmasını saygılarımla arz ederim.\n\nTarih: [TARİH]\n\nAd Soyad: [AD SOYAD]\nAdres: [ADRES]\nİmza: [İMZA]",
+  "denetle": [],
+  "kor_kod": "Y004"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketin sonuçları analiz edildiğinde, egzersiz sıklığının artırılmasının uyku kalitesini olumlu yönde etkilediği ve bu etkinin yaş gruplarına göre farklılaştığı belirlenmiştir. Bu bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %50.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "belirlenmiştir"
+   }
+  ],
+  "kor_kod": "Y005"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "g",
+  "metin": "Önbellek, tarayıcının daha önce ziyaret ettiğiniz sitelerden aldığı görsel ve diğer dosyaların bazılarını cihazınızda geçici olarak sakladığı alandır. Tarayıcı aynı dosyalara yeniden ihtiyaç duyduğunda bunları tekrar indirmek yerine önbellekten kullanabilir; böylece sayfalar daha hızlı açılabilir. Bazen saklanan dosyalar sitenin güncel hâliyle uyuşmaz ve sayfanın yanlış görünmesine veya bazı işlevlerin çalışmamasına yol açabilir. Önbelleği temizlemek, tarayıcının bu dosyaları yeniden indirmesini sağlayarak sorunu çözebilir.",
+  "denetle": [],
+  "kor_kod": "Y006"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "g",
+  "metin": "Web tarayıcınızın önbelleği, ziyaret ettiğiniz internet sitelerindeki resim, logo ve sayfa tasarımı gibi bazı dosyaları cihazınızda geçici olarak saklayan bir hafızadır. Bu sistem sayesinde aynı siteye tekrar girdiğinizde tüm veriler internetten yeniden indirilmez ve sayfalar çok daha hızlı açılır. Ancak bir internet sitesi güncellendiğinde tarayıcınız yeni verileri çekmek yerine hafızasındaki eski dosyaları göstermeye devam edebilir. Bu durum sayfaların hatalı yüklenmesine, bazı butonların çalışmamasına ya da eski içeriklerin ekranda kalmasına yol açar. İşte bu teknik uyumsuzlukları gidermek ve sitenin en güncel hâlini sorunsuzca görebilmek için zaman zaman kullanıcılara önbelleği temizlemeleri söylenir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.11); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[21, 18, 16, 16, 19]"
+   }
+  ],
+  "kor_kod": "Y007"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "b",
+  "metin": "Bu akşam yemeğe yaklaşık 30 dakika gecikeceğim, trafik çok yoğun. Siz masayı tutup siparişe başlayın, ben geliyorum.",
+  "denetle": [],
+  "kor_kod": "Y008"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesine yardımcı olur.",
+  "denetle": [],
+  "kor_kod": "Y009"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "e",
+  "metin": "Sağlıklı bir yaşam için düzenli egzersiz çok önemlidir. Egzersiz hem fiziksel hem zihinsel sağlığı iyileştirir. Yürüyüş, yüzme ve bisiklet gibi etkinlikler etkili olduğu kadar erişilebilir seçeneklerdir, üstelik sürdürmesi de kolaydır. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz öneriyor. Kısacası egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+  "denetle": [],
+  "kor_kod": "Y010"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "b",
+  "metin": "Trafik çok yoğun, bu akşamki yemeğe yaklaşık yarım saat gecikeceğim. Masayı tutun, beni beklemeden sipariş verin.",
+  "denetle": [],
+  "kor_kod": "Y011"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anket sonuçlarının analizi sonucunda, egzersiz sıklığındaki artışın uyku kalitesini olumlu etkilediği tespit edilmiştir. Yaş grupları arasında farklılık gösterdiği de gözlenen bu bulgu, literatürle örtüşmektedir.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %100.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "edilmiştir, örtüşmektedir"
+   }
+  ],
+  "kor_kod": "Y012"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "d",
+  "metin": "500 ml kapasiteli paslanmaz çelik termos, içeceğinizi 12 saat sıcak veya 24 saat soğuk tutar. Bulaşık makinesinde yıkanabilir.",
+  "denetle": [],
+  "kor_kod": "Y013"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "f",
+  "metin": "[TARİH]\n\n[BELEDİYE ADI] BAŞKANLIĞINA\n\nKonu: Sokak Lambasının Onarılması Talebi\n\n[ADRES] adresindeki sokağımızda bulunan sokak lambası üç haftadır yanmamaktadır. Akşam saatlerinde yol karanlık kaldığından bu durum yayalar için tehlike oluşturmaktadır.\n\nArızalı lambanın incelenerek en kısa sürede onarılması için gereğini saygılarımla arz ederim.\n\n[AD SOYAD]\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y014"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin çünkü ben de bilmiyorum ki kimler gelecek?",
+  "denetle": [],
+  "kor_kod": "Y015"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların verilerini daha iyi yönetmesine önemli bir katkı sağlıyor.",
+  "denetle": [],
+  "kor_kod": "Y016"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+  "denetle": [],
+  "kor_kod": "Y017"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "b",
+  "metin": "Selam! Trafik felaket kilitlendi, yemeğe yaklaşık 30 dakika gecikeceğim. Siz lütfen masayı tutun ve beni hiç beklemeden siparişleri verin, gelince hemen yetişirim.",
+  "denetle": [],
+  "kor_kod": "Y018"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "h",
+  "metin": "Anket sonuçlarının analizi, egzersiz sıklığının artırılmasının uyku kalitesini olumlu etkilediğini ve bu etkinin yaş grupları arasında farklılık gösterdiğini ortaya koymuştur. Bu bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %50.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "koymuştur"
+   }
+  ],
+  "kor_kod": "Y019"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "b",
+  "metin": "Trafik çok yoğun, bu akşamki yemeğe yaklaşık 30 dakika gecikeceğim. Siz masayı tutun, beni beklemeden siparişe başlayın.",
+  "denetle": [],
+  "kor_kod": "Y020"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "d",
+  "metin": "500 ml kapasiteye sahip bu paslanmaz çelik termos, sıcak içeceklerinizi 12 saat, soğuk içeceklerinizi ise 24 saat boyunca korur. Pratik bir temizlik için bulaşık makinesinde güvenle yıkanabilir.",
+  "denetle": [],
+  "kor_kod": "Y021"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "h",
+  "metin": "Anket sonuçlarının analizi, egzersiz sıklığının artırılmasının uyku kalitesi üzerinde olumlu bir etkisi olduğunu ve bu etkinin yaş grupları arasında farklılık gösterdiğini ortaya koymuştur. Bu bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %50.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "koymuştur"
+   }
+  ],
+  "kor_kod": "Y022"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz sağlıklı yaşamın temel taşlarından biridir. Hem fiziksel hem zihinsel sağlığa iyi gelir. Yürüyüş, yüzme ve bisiklet gibi etkinlikler hem etkili hem erişilebilir, üstelik uzun süre sürdürülebilir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını önerir. Egzersiz hayatımızdan eksik olmamalı.",
+  "denetle": [],
+  "kor_kod": "Y023"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "b",
+  "metin": "Selam, trafik felaket, yemeğe yarım saat kadar geç kalacağım. Masayı tutun, beni beklemeden siparişe başlayın, ben de yetişirim.",
+  "denetle": [],
+  "kor_kod": "Y024"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "c",
+  "metin": "Bu yeni özellik önemli, çünkü kullanıcılar verilerini onun sayesinde daha etkili yönetebiliyor.",
+  "denetle": [],
+  "kor_kod": "Y025"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz, sağlıklı bir yaşam için çok önemlidir. Egzersiz yalnızca beden sağlığını iyileştirmekle kalmaz, zihinsel sağlığa da iyi gelir. Yürüyüş, yüzme ve bisiklet bu konuda etkili, herkesin kolayca yapabileceği ve uzun süre sürdürülebilecek seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Kısacası egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.27); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[8, 11, 15, 11, 7]"
+   }
+  ],
+  "kor_kod": "Y026"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BELEDİYESİNE\n\nKonu: Sokak lambasının onarılması talebi\n\nOturduğum sokaktaki sokak lambası üç haftadır yanmıyor. Bu nedenle akşamları yol karanlık kalıyor ve yayalar için tehlike oluşuyor. Lambanın onarılmasını arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\n\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y027"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz, sağlıklı bir yaşam için önemlidir; fiziksel sağlığın yanı sıra zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet gibi aktiviteler etkili, erişilebilir ve sürdürülebilir seçeneklerdir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Egzersiz hayatımızın vazgeçilmez bir parçası olmalıdır.",
+  "denetle": [],
+  "kor_kod": "Y028"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketlerin analizinde, egzersiz sıklığını artırmanın uyku kalitesini olumlu etkilediği tespit edilmiştir. Yaş gruplarına göre farklılık gösterdiği de gözlenen bu sonuç, literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %50.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "edilmiştir"
+   }
+  ],
+  "kor_kod": "Y029"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması talebi\n\n[ADRES] adresinde oturmaktayım. Sokağımızdaki sokak lambası üç haftadır yanmamaktadır. Bu nedenle akşam saatlerinde yol karanlık kalmakta ve bu durum yayalar için tehlike oluşturmaktadır.\n\nSöz konusu lambanın en kısa sürede onarılması için gereğinin yapılmasını saygılarımla arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y030"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini sağladığı için önemli bir yere sahip.",
+  "denetle": [],
+  "kor_kod": "Y031"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anket sonuçlarının analizi, egzersiz sıklığındaki artışın uyku kalitesi üzerinde olumlu bir etkiye sahip olduğunu ve bu durumun yaş grupları arasında farklılık gösterdiğini ortaya koymuştur. Elde edilen bu bulgu literatür ile uyumluluk göstermektedir.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %100.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "koymuştur, göstermektedir"
+   }
+  ],
+  "kor_kod": "Y032"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin, çünkü ben de bilmiyorum ki kimler gelecek?",
+  "denetle": [],
+  "kor_kod": "Y033"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "d",
+  "metin": "Bu 500 ml'lik paslanmaz çelik termos, sıcak içeceklerinizi 12 saat, soğuk içeceklerinizi 24 saat boyunca korur. Gün boyu yanınızda taşıyabileceğiniz bu termos, bulaşık makinesinde yıkanabildiği için temizliği de kolaydır.",
+  "denetle": [],
+  "kor_kod": "Y034"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin; çünkü ben de bilmiyorum ki kimler gelecek?",
+  "denetle": [],
+  "kor_kod": "Y035"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmelerine yardımcı oluyor.",
+  "denetle": [],
+  "kor_kod": "Y036"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "e",
+  "metin": "Sağlıklı bir yaşam için düzenli egzersiz yapmak belirleyicidir. Hareket etmek bedeni iyileştirmekle birlikte zihinsel sağlığı da güçlendirir. Yürüyüş, yüzme ve bisiklet ise kolay erişilen, uzun süre devam ettirilebilecek etkili seçeneklerdir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Kısacası egzersizi hayatın kalıcı bir parçası hâline getirmek gerekir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.18); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[8, 9, 13, 11, 9]"
+   }
+  ],
+  "kor_kod": "Y037"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "e",
+  "metin": "Dünyanın hızla değiştiği bir dönemde, düzenli egzersiz sağlıklı bir yaşam için çok önemli. Egzersiz hem fiziksel hem de zihinsel sağlığa katkıda bulunur. Yürüyüş, yüzme ve bisiklet, etkili, erişilebilir ve sürdürülebilir egzersiz seçenekleridir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.24); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[13, 9, 10, 11, 6]"
+   }
+  ],
+  "kor_kod": "Y038"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+  "denetle": [],
+  "kor_kod": "Y039"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\n[TARİH]\n\nKonu: Arızalı sokak lambasının onarılması talebi.\n\nİkamet ettiğim [ADRES] adresindeki sokakta bulunan sokak lambası üç haftadır yanmamaktadır. Bu nedenle akşamları yol karanlık kalmakta ve yayalar için tehlike oluşturmaktadır.\n\nSöz konusu lambanın en kısa sürede onarılması hususunda gereğini arz ederim.\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y040"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "b",
+  "metin": "Selam! Trafik çok yoğun, bu akşamki yemeğe yaklaşık yarım saat geç kalacağım. Masayı tutun, beni beklemeden siparişe başlayın, ben gelince yetişirim.",
+  "denetle": [],
+  "kor_kod": "Y041"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\n[TARİH]\n\nİlçeniz sınırları içerisindeki [ADRES] adresinde ikamet etmekteyim. Sokağımızda bulunan sokak lambası yaklaşık üç haftadır yanmamaktadır. Akşam saatlerinde sokağın karanlıkta kalması nedeniyle yol, yayalar için tehlike oluşturmaktadır.\n\nSöz konusu arızalı sokak lambasının ivedilikle onarılmasını saygılarımla arz ve talep ederim.\n\n[AD SOYAD]\n\nAdres:\n[ADRES]",
+  "denetle": [],
+  "kor_kod": "Y042"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin, çünkü ben de bilmiyorum ki kimler gelecek.",
+  "denetle": [],
+  "kor_kod": "Y043"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Sokak Lambasının Onarılması\n\n[ADRES] adresinde ikamet ediyorum. Oturduğum sokaktaki sokak lambası üç haftadır yanmıyor. Akşamları yolun karanlık kalması yayalar için tehlike oluşturuyor.\n\nLambanın onarılmasını arz ederim.\n\nTarih: [TARİH]\nAd Soyad: [AD SOYAD]\nİmza:\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y044"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması hakkında.\n\n[TARİH]\n\nOturduğum [ADRES] adresindeki sokakta bulunan sokak lambası üç haftadır yanmamaktadır. Bu yüzden akşamları yol karanlık kalmakta, karanlık da yayalar için tehlike oluşturmaktadır.\n\nSözü edilen sokak lambasının en kısa sürede onarılmasını saygılarımla arz ve talep ederim.\n\n[AD SOYAD]\n[İMZA]\n\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y045"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "g",
+  "metin": "Tarayıcı, bir siteyi her açışınızda logo, görsel ve yazı tipi gibi parçaları internetten baştan indirmek yerine bunların bir kısmını cihazınıza kaydeder, bu saklama alanına önbellek denir. Sayfalar böylece daha hızlı açılır ve internet kotanız daha az harcanır. Ne var ki site yenilendiğinde tarayıcı bazen eski kopyayı göstermeyi sürdürür, siz de ekranda eksik, bozuk ya da güncellenmemiş bir sayfa görürsünüz. \"Önbelleği temizleyin\" önerisi tam bunun içindir. Kayıtlı eski kopyalar silinir, sayfa yeniden en güncel hâliyle indirilir. Yalnız önbelleği seçtiğiniz sürece şifreleriniz silinmez, tek bedeli sitelerin ilk girişte biraz yavaş açılmasıdır.",
+  "denetle": [],
+  "kor_kod": "Y046"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "g",
+  "metin": "Bir internet sitesini açtığınızda tarayıcınız, sayfadaki görseller ve sayfa düzeni dosyaları gibi sık değişmeyen parçaları cihazınızda geçici olarak saklar; bu saklama alanına önbellek denir. Aynı siteye tekrar girdiğinizde tarayıcı bu dosyaları internetten baştan indirmek yerine doğrudan cihazınızdan okur, böylece sayfalar beklemeden açılır. Ne var ki site güncellendiğinde tarayıcı bazen yenisini getirmek yerine sakladığı eski kopyayı göstermekte ısrar edebilir; kimi zaman da bozuk kaydedilmiş bir dosya sayfanın hatalı çalışmasına yol açar. Bu yüzden sorun yaşandığında sizden \"Önbelleği temizleyin\" diye istenir. Temizleme işlemi cihazdaki bu eski kayıtları siler ve tarayıcıyı sitenin güncel dosyalarını sıfırdan indirmeye zorlar.",
+  "denetle": [],
+  "kor_kod": "Y047"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\nİkamet ettiğim [ADRES] adresindeki sokak lambası üç haftadır yanmamaktadır. Akşam saatlerinde yolun karanlıkta kalması yayalar için tehlike oluşturmaktadır.\n\nArızalı sokak lambasının ivedilikle onarılması hususunda gereğinin yapılmasını saygılarımla arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y048"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "b",
+  "metin": "Trafik çok yoğun, bu akşam yemeğe yarım saat kadar gecikeceğim. Masayı tutun, siz sipariş vermeye başlayın, beni beklemeyin.",
+  "denetle": [],
+  "kor_kod": "Y049"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "d",
+  "metin": "500 ml kapasiteli bu paslanmaz çelik termos, sıcak içeceklerinizi 12 saat, soğuk içeceklerinizi ise 24 saat korur. Ürün, bulaşık makinesinde yıkanabilir.",
+  "denetle": [],
+  "kor_kod": "Y050"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini sağladığı için önemli.",
+  "denetle": [],
+  "kor_kod": "Y051"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketlerin sonuçları analiz edildiğinde, egzersiz sıklığının artırılmasının uyku kalitesi üzerinde olumlu bir etkisi olduğu belirlenmiştir. Bu etkinin yaş grupları arasında farklılık gösterdiği de gözlenmiştir; bu bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %100.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "belirlenmiştir, gözlenmiştir"
+   }
+  ],
+  "kor_kod": "Y052"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "c",
+  "metin": "Bu yeni özellik sayesinde kullanıcılar verilerini daha etkili yönetebiliyor.",
+  "denetle": [],
+  "kor_kod": "Y053"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "b",
+  "metin": "Selam, trafik çok yoğun olduğu için bu akşamki yemeğe yaklaşık 30 dakika gecikeceğim. Siz masayı tutun, siparişe de başlayın lütfen; ben gelir gelmez katılırım.",
+  "denetle": [],
+  "kor_kod": "Y054"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "d",
+  "metin": "500 ml hacimli bu paslanmaz çelik termos, sıcak içeceklerinizi 12 saat sıcak, soğuk içeceklerinizi 24 saat soğuk tutar. Bulaşık makinesinde yıkanabildiği için temizliği de kolaydır.",
+  "denetle": [],
+  "kor_kod": "Y055"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketlerin analizinde, egzersiz sıklığının artırılmasının uyku kalitesini olumlu yönde etkilediği tespit edilmiştir. Bu etkinin yaş grupları arasında farklılaştığı da gözlenmiş, bulgu literatürle uyumlu bulunmuştur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %100.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "edilmiştir, bulunmuştur"
+   }
+  ],
+  "kor_kod": "Y056"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili bir şekilde yönetebilmesinde önemli bir rol oynuyor.",
+  "denetle": [],
+  "kor_kod": "Y057"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketlerin analizi sonucunda, egzersiz sıklığını artırmanın uyku kalitesi üzerinde olumlu bir etkiye sahip olduğu tespit edilmiştir. Ayrıca bu durumun yaş grupları arasında farklılık gösterdiği gözlemlenmiş olup elde edilen bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %50.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "edilmiştir"
+   }
+  ],
+  "kor_kod": "Y058"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "g",
+  "metin": "Önbellek (cache), tarayıcınızın daha önce açtığınız web sitelerinden aldığı resim, yazı tipi ve sayfa parçaları gibi dosyaları bilgisayarınızda geçici olarak sakladığı bir alandır. Böylece aynı siteyi tekrar açtığınızda bu dosyalar baştan indirilmez, sayfa daha hızlı yüklenir. Ancak site güncellendiği hâlde tarayıcı eski kopyaları kullanmaya devam ederse, sayfa bozuk görünebilir ya da eski içerik karşınıza çıkabilir. 'Önbelleği temizleyin' önerisi, bu eski kopyaların silinmesi ve tarayıcının sayfayı sıfırdan, güncel hâliyle indirmesi için yapılır. Önbelleği temizlemek kişisel verilerinizi ya da şifrelerinizi silmez, yalnızca siteler ilk girişte biraz daha yavaş açılabilir.",
+  "denetle": [],
+  "kor_kod": "Y059"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketin sonuçları analiz edildiğinde egzersiz sıklığının artırılmasının uyku kalitesini olumlu yönde etkilediği belirlenmiştir. Bu etkinin yaş gruplarına göre farklılaştığı da gözlenmiştir; bu bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %100.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "belirlenmiştir, gözlenmiştir"
+   }
+  ],
+  "kor_kod": "Y060"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "d",
+  "metin": "500 ml kapasiteli bu paslanmaz çelik termos; sıcak içecekleri 12 saat, soğuk içecekleri ise 24 saat boyunca korur. Ürün bulaşık makinesinde yıkanabilir.",
+  "denetle": [],
+  "kor_kod": "Y061"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "d",
+  "metin": "500 ml kapasiteli paslanmaz çelik termos, içeceğinizi 12 saat sıcak, 24 saat soğuk tutar. Bulaşık makinesinde yıkanabilir.",
+  "denetle": [],
+  "kor_kod": "Y062"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "e",
+  "metin": "Sağlıklı bir yaşam için düzenli egzersiz şart. Egzersiz, fiziksel sağlığı iyileştirdiği gibi zihinsel sağlığı da destekler. Yürüyüş, yüzme ve bisiklet gibi aktiviteler hem kolay erişilebilen hem de etkili ve sürdürülebilir seçeneklerdir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz öneriyor. Kısacası egzersizi hayatımızın vazgeçilmez bir parçası hâline getirmek gerekir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.27); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[7, 9, 15, 10, 9]"
+   }
+  ],
+  "kor_kod": "Y063"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "b",
+  "metin": "Selam! Trafik felaket, yemeğe yarım saat kadar geç kalacağım galiba 😕 Siz masayı tutun, siparişe de başlayın, ben gelince yetişirim. Kusura bakmayın!",
+  "denetle": [],
+  "kor_kod": "Y064"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz yapmak, sağlıklı bir yaşam için büyük önem taşır. Egzersiz, fiziksel sağlığı iyileştirmenin yanı sıra zihinsel sağlığa da katkı sağlar. Yürüyüş, yüzme ve bisiklet gibi aktiviteler ise etkili, erişilebilir ve sürdürülebilir seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını önerir. Bu nedenle egzersiz, hayatımızın vazgeçilmez bir parçası olmalıdır.",
+  "denetle": [
+   {
+    "tur": "AI-Tier1",
+    "mesaj": "Tier-1 klişe: 'önem taşımaktadır' yerine doğrudan 'kritiktir / belirleyicidir' kullan",
+    "ornek": "büyük önem taşır"
+   },
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.13); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[10, 11, 12, 11, 8]"
+   }
+  ],
+  "kor_kod": "Y065"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "g",
+  "metin": "Tarayıcı önbelleği, ziyaret ettiğiniz sitelerdeki görsel ve bazı dosyaların cihazınızda geçici olarak saklandığı alandır. Aynı siteyi yeniden açtığınızda tarayıcı bu dosyaları tekrar indirmek yerine sakladığı kopyaları kullanarak sayfayı daha hızlı yükleyebilir. Bazen saklanan dosyalar güncelliğini yitirir veya bozulur ve sayfa yanlış görünebilir ya da düzgün çalışmayabilir. Önbelleği temizlemek bu kopyaları siler, böylece tarayıcı gereken dosyaları yeniden indirir. Bu işlemden sonra ilk açılış biraz daha uzun sürebilir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.22); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[14, 17, 15, 11, 9]"
+   }
+  ],
+  "kor_kod": "Y066"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+  "denetle": [],
+  "kor_kod": "Y067"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+  "denetle": [],
+  "kor_kod": "Y068"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "TEMEL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin çünkü ben de bilmiyorum ki kimler gelecek?",
+  "denetle": [],
+  "kor_kod": "Y069"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "d",
+  "metin": "500 ml kapasiteli paslanmaz çelik termos, sıcak içecekleri 12 saat, soğuk içecekleri 24 saat korur. Bulaşık makinesinde yıkanabilir.",
+  "denetle": [],
+  "kor_kod": "Y070"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz sağlıklı yaşam için önemlidir. Fiziksel sağlığı iyileştirir, zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet etkili, erişilebilir ve sürdürülebilir seçeneklerdir. Haftada en az 150 dakika orta yoğunlukta egzersiz önerilir. Egzersizi günlük yaşamın düzenli bir parçası hâline getirmek gerekir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.14); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[6, 8, 9, 9, 9]"
+   }
+  ],
+  "kor_kod": "Y071"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "g",
+  "metin": "Bir siteyi ilk kez açtığınızda tarayıcınız logo, resim, yazı tipi gibi dosyaların bir kopyasını bilgisayarınıza ya da telefonunuza kaydeder. Bu deponun adı önbellektir (İngilizcesi cache). Aynı siteye yeniden girdiğinizde tarayıcı bu dosyaları internetten baştan indirmez, elindeki kopyadan alır. Böylece sayfa daha hızlı açılır, daha az veri harcanır. Ne var ki site güncellendiğinde tarayıcı bazen eski kopyayı kullanmayı sürdürür. O zaman sayfa bozuk görünebilir, yenilikler görünmeyebilir ya da bir düğme çalışmayabilir. Önbelleği temizlemek bu eski kopyaları siler ve tarayıcıyı dosyaların güncel hâlini siteden yeniden indirmeye zorlar; bir sitede tuhaflık görüldüğünde ilk önerilen çözümlerden birinin bu olması bundandır.",
+  "denetle": [],
+  "kor_kod": "Y072"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "TEMEL",
+  "madde": "g",
+  "metin": "Web tarayıcınız, girdiğiniz sitelerdeki resim, yazı tipi ve sayfa düzeni gibi bazı dosyaların bir kopyasını bilgisayarınızda saklar; buna önbellek denir. Böylece aynı siteyi yeniden açtığınızda bu dosyaların tekrar indirilmesi gerekmez ve sayfa daha hızlı açılır. Ancak site güncellendiğinde tarayıcı bazen yeni dosyalar yerine elindeki eski kopyaları kullanmaya devam edebilir. Bu da sayfanın bozuk görünmesine, bazı düğmelerin çalışmamasına ya da yapılan değişikliklerin görünmemesine yol açabilir. Önbelleği temizlediğinizde bu eski kopyalar silinir ve tarayıcı her şeyi siteden yeniden indirir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.16); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[20, 15, 14, 15, 13]"
+   }
+  ],
+  "kor_kod": "Y073"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "d",
+  "metin": "500 ml hacmindeki paslanmaz çelik termos, sıcak içecekleri 12 saat, soğuk içecekleri ise 24 saat boyunca korur. Bulaşık makinesinde yıkanabildiği için temizliği de zahmetsizdir.",
+  "denetle": [],
+  "kor_kod": "Y074"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "d",
+  "metin": "Paslanmaz çelikten yapılan 500 ml'lik bu termos, sıcak içeceğinizi 12 saat sıcak, soğuk içeceğinizi 24 saat soğuk tutar. Bulaşık makinesinde yıkanabildiği için temizliği de kolaydır.",
+  "denetle": [],
+  "kor_kod": "Y075"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "g",
+  "metin": "Önbellek (cache), tarayıcının ziyaret ettiğiniz sitelerdeki görsel ve bazı dosyaların kopyalarını cihazınızda sakladığı alandır. Tarayıcı, aynı siteye tekrar girdiğinizde bu dosyaları yeniden indirmek yerine sakladığı kopyaları kullanarak sayfayı daha hızlı açabilir. Bazen bu kopyalar güncelliğini yitirir veya bozulur; bu da sayfanın eski ya da hatalı görünmesine yol açabilir. Bu nedenle bazı sorunlarda önbelleği temizlemeniz istenir. Temizleme sonrasında tarayıcı ihtiyaç duyduğu dosyaları siteden yeniden indirir; bu yüzden ilk açılış biraz daha yavaş olabilir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.27); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[14, 17, 17, 7, 17]"
+   }
+  ],
+  "kor_kod": "Y076"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "g",
+  "metin": "Web tarayıcısındaki önbellek (cache), ziyaret ettiğiniz sitelerdeki görseller, yazı tipleri ve sayfa parçaları gibi dosyaların cihazınızda geçici olarak saklandığı alandır. Bu sayede aynı siteye tekrar girdiğinizde tarayıcı bu dosyaları internetten yeniden indirmek yerine doğrudan cihazınızdan açar ve sayfalar çok daha hızlı yüklenir. Ancak bir web sitesi güncellendiğinde, tarayıcı bazen sitenin yeni hâlini göstermek yerine hafızasında tuttuğu eski dosyaları kullanmaya devam edebilir. Bu durum da sayfaların bozuk görünmesine, eski bilgilerin ekranda kalmasına veya bazı özelliklerin düzgün çalışmamasına yol açar. İşte bu yüzden \"önbelleği temizleyin\" denildiğinde amaç, saklanan eski dosyaları silerek tarayıcıyı sitenin en güncel sürümünü yeniden indirmeye yönlendirmektir.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.08); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[20, 22, 19, 17, 19]"
+   }
+  ],
+  "kor_kod": "Y077"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "g",
+  "metin": "Tarayıcı önbelleği; ziyaret ettiğiniz internet sitelerindeki resim, logo ve sayfa tasarımı gibi parçaları bilgisayarınızda saklayan geçici bir hafıza alanıdır. Aynı siteye tekrar girdiğinizde bu dosyalar internetten yeniden indirilmez, cihazınızdan hızla yüklenerek sayfanın çok daha çabuk açılmasını sağlar. Ancak bir internet sitesi güncellendiğinde tarayıcınız yeni verileri almak yerine elindeki eski kopyaları göstermeye devam edebilir. Bu durum sayfaların bozuk görünmesine veya sitedeki yeniliklerin ekrana yansımamasına yol açtığında sizden önbelleği temizlemeniz istenir. Önbelleği sildiğinizde tarayıcınız sitenin en güncel hâlini sıfırdan indirir ve sayfa normale döner.",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.13); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[19, 18, 16, 16, 13]"
+   }
+  ],
+  "kor_kod": "Y078"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "e",
+  "metin": "Düzenli egzersiz, sağlıklı bir yaşam için çok önemlidir. Egzersiz yalnızca bedensel sağlığı iyileştirmekle kalmaz, ruh sağlığına da yardımcı olur. Yürüyüş, yüzme ve bisiklet gibi etkinlikler hem etkili hem kolay ulaşılabilir hem de uzun süre devam ettirilebilir seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Kısacası egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+  "denetle": [],
+  "kor_kod": "Y079"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini kolaylaştırıyor.",
+  "denetle": [],
+  "kor_kod": "Y080"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "SKILL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketlerin analizi, egzersiz sıklığındaki artışın uyku kalitesini olumlu etkilediğini ve bu etkinin yaş gruplarına göre farklılaştığını göstermiştir. Bu bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %50.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "göstermiştir"
+   }
+  ],
+  "kor_kod": "Y081"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "d",
+  "metin": "500 ml'lik paslanmaz çelik termos, sıcak içecekleri 12 saat, soğuk içecekleri 24 saat korur. Bulaşık makinesinde yıkanabilir.",
+  "denetle": [],
+  "kor_kod": "Y082"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların verilerini daha etkili yönetmesini sağlar.",
+  "denetle": [],
+  "kor_kod": "Y083"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "h",
+  "metin": "Katılımcılara uygulanan anketin sonuçları analiz edildiğinde, egzersiz sıklığındaki artışın uyku kalitesini olumlu etkilediği ve bu etkinin yaş grupları arasında farklılık gösterdiği saptanmıştır. Bu bulgu literatürle uyumludur.",
+  "denetle": [
+   {
+    "tur": "Üslup",
+    "mesaj": "-mAktAdIr/-mIştIr oranı %50.0; 'teknik' sicili sınırı <= %15",
+    "ornek": "saptanmıştır"
+   }
+  ],
+  "kor_kod": "Y084"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ya göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin, çünkü ben de bilmiyorum ki kimler gelecek?",
+  "denetle": [],
+  "kor_kod": "Y085"
+ },
+ {
+  "model": "Gemini 3.8 Flash (High)",
+  "kesin_kimlik": "gemini-3.8-flash-high",
+  "kosul": "SKILL",
+  "madde": "b",
+  "metin": "Selam, trafik fena sıkıştı, bu akşamki yemeğe bir 30 dakika kadar gecikeceğim. Siz masayı tutun, beni hiç beklemeden siparişe başlayın lütfen.",
+  "denetle": [],
+  "kor_kod": "Y086"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "g",
+  "metin": "Önbellek, tarayıcınızın ziyaret ettiğiniz sitelerden bazı dosyaları cihazınızda geçici olarak sakladığı alandır. Böylece aynı siteyi tekrar açtığınızda bazı içerikler yeniden indirilmeden kullanılabilir ve sayfa daha hızlı yüklenebilir. Bazen saklanan dosyalar eski veya hatalı olduğu için site düzgün görüntülenmeyebilir. Önbelleği temizlemek, tarayıcının bu dosyaları yeniden indirmesini sağlayarak sorunu çözebilir.",
+  "denetle": [],
+  "kor_kod": "Y087"
+ },
+ {
+  "model": "Claude Opus 5.5",
+  "kesin_kimlik": "claude-opus-5-5",
+  "kosul": "SKILL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması talebi\n\n[ADRES] adresinde oturmaktayım. Sokağımızdaki aydınlatma lambası üç haftadır yanmamaktadır. Bu nedenle yol akşam saatlerinde karanlık kalmakta ve yayalar için tehlike oluşturmaktadır.\n\nArızalı lambanın en kısa sürede onarılması için gereğinin yapılmasını saygılarımla arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y088"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nOturduğum sokaktaki sokak lambası üç haftadır yanmamaktadır. Bu nedenle yol akşamları karanlık kalmakta ve yayalar için tehlike oluşturmaktadır.\n\nSöz konusu lambanın onarılmasını arz ederim.\n\nTarih: [TARİH]\nAd Soyad: [AD SOYAD]\nAdres: [ADRES]",
+  "denetle": [],
+  "kor_kod": "Y089"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "TEMEL",
+  "madde": "b",
+  "metin": "Selam, bu akşam yemeğe yaklaşık 30 dakika geç kalacağım, trafik çok yoğun. Masayı tutarsanız ve beni beklemeden siparişe başlarsanız çok sevinirim. Geliyorum, yakında oradayım!",
+  "denetle": [],
+  "kor_kod": "Y090"
+ },
+ {
+  "model": "Claude Sonnet 5.5",
+  "kesin_kimlik": "claude-sonnet-5-5",
+  "kosul": "SKILL",
+  "madde": "d",
+  "metin": "Bu 500 ml'lik paslanmaz çelik termos, sıcak içeceği 12 saat, soğuk içeceği 24 saat boyunca korur. Kullandıktan sonra bulaşık makinesinde yıkayabilirsiniz.",
+  "denetle": [],
+  "kor_kod": "Y091"
+ },
+ {
+  "model": "GPT-6.1 Sol",
+  "kesin_kimlik": "gpt-6.1-sol",
+  "kosul": "TEMEL",
+  "madde": "f",
+  "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Yanmayan sokak lambasının onarılması talebi\n\n[ADRES] adresinde ikamet etmekteyim. Oturduğum sokaktaki sokak lambası üç haftadır yanmamaktadır. Bu nedenle akşamları yol karanlık kalmakta ve yayalar için tehlike oluşmaktadır.\n\nSöz konusu sokak lambasının onarılması için gereğinin yapılmasını arz ederim.\n\nTarih: [TARİH]\nAd Soyad: [AD SOYAD]\nAdres: [ADRES]\nİmza:",
+  "denetle": [
+   {
+    "tur": "Ritim-İpucu",
+    "mesaj": "Cümle boyları tekdüze görünüyor (CoV=0.23); metin robotik duyuluyorsa uzun-kısa ritmiyle nefes açılabilir",
+    "ornek": "cümle boyları=[14, 7, 11, 10, 9]"
+   }
+  ],
+  "kor_kod": "Y092"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "TEMEL",
+  "madde": "b",
+  "metin": "Trafik çok yoğun, bu akşamki yemeğe yaklaşık 30 dakika geç kalacağım. Siz masayı tutun, siparişe de başlayın.",
+  "denetle": [],
+  "kor_kod": "Y093"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "TEMEL",
+  "madde": "c",
+  "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini sağlayarak önemli bir işlev üstleniyor.",
+  "denetle": [],
+  "kor_kod": "Y094"
+ },
+ {
+  "model": "Gemini 4 Hydrogen (High)",
+  "kesin_kimlik": "gemini-4-hydrogen-high",
+  "kosul": "SKILL",
+  "madde": "c",
+  "metin": "Kullanıcıların verilerini daha etkili yönetebilmesinde bu yeni özellik önemli bir yer tutuyor.",
+  "denetle": [],
+  "kor_kod": "Y095"
+ },
+ {
+  "model": "GPT-6.1 Terra",
+  "kesin_kimlik": "gpt-6.1-terra",
+  "kosul": "SKILL",
+  "madde": "a",
+  "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+  "denetle": [],
+  "kor_kod": "Y096"
+ }
+]

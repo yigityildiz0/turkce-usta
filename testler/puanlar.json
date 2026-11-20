@@ -1,0 +1,2983 @@
+{
+ "yontem": "Çıktılar model/koşul gizlenip karıştırıldı (Y001-Y096); her biri denetle.py bulgularıyla birlikte 3 bağımsız Claude Sonnet 5.5 (high) puanlayıcıya farklı sıralarla (düz, ters, tek-çift) verildi. Ölçek 1-5, dört ölçüt; öğe puanı 3 puanlayıcının ortalaması. Eşleme puanlamadan sonra açıldı. Madde a (12 çıktı), ilk puanlama brief'indeki yanlış ipucu ('TDK'ya doğru') yüzünden düzeltilmiş brief'le aynı 3 puanlayıcı düzeninde yeniden puanlandı; eski puanlar puanlama-ham-v2.json'da duruyor. Yeniden puanlamada da 'TDK'ya' hatasını bırakan iki çıktıda (Y001, Y085) puanlayıcıların çoğu hatayı kaçırdı; bu iki öğede 5 verilen imla puanları elle 4'e indirildi (Y001'de hatayı yakalayan puanlayıcının kararı).",
+ "puanlayici_uyumu_pearson": {
+  "1-2": 0.8,
+  "1-3": 0.784,
+  "2-3": 0.855
+ },
+ "genel": {
+  "temel": 4.36,
+  "skill": 4.49,
+  "basit": [
+   4.4,
+   4.56
+  ],
+  "karmasik": [
+   4.33,
+   4.41
+  ],
+  "olcut": {
+   "imla_noktalama": [
+    4.74,
+    4.74
+   ],
+   "dogallik": [
+    4.07,
+    4.41
+   ],
+   "gorev_uyumu": [
+    4.38,
+    4.37
+   ],
+   "akicilik": [
+    4.26,
+    4.42
+   ]
+  }
+ },
+ "model_ozeti": [
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "temel": 4.1,
+   "skill": 4.58,
+   "fark": 0.48,
+   "iyi_esit_kotu": [
+    8,
+    0,
+    0
+   ],
+   "denetle": [
+    4,
+    2
+   ],
+   "olcut": {
+    "imla_noktalama": [
+     4.67,
+     5
+    ],
+    "dogallik": [
+     3.46,
+     4.38
+    ],
+    "gorev_uyumu": [
+     4.33,
+     4.5
+    ],
+    "akicilik": [
+     3.96,
+     4.46
+    ]
+   }
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "temel": 3.81,
+   "skill": 4.09,
+   "fark": 0.28,
+   "iyi_esit_kotu": [
+    4,
+    1,
+    3
+   ],
+   "denetle": [
+    5,
+    3
+   ],
+   "olcut": {
+    "imla_noktalama": [
+     4.58,
+     4.08
+    ],
+    "dogallik": [
+     3.21,
+     3.96
+    ],
+    "gorev_uyumu": [
+     3.79,
+     4.46
+    ],
+    "akicilik": [
+     3.67,
+     3.87
+    ]
+   }
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "temel": 4.57,
+   "skill": 4.65,
+   "fark": 0.07,
+   "iyi_esit_kotu": [
+    5,
+    0,
+    3
+   ],
+   "denetle": [
+    4,
+    3
+   ],
+   "olcut": {
+    "imla_noktalama": [
+     4.71,
+     5
+    ],
+    "dogallik": [
+     4.42,
+     4.71
+    ],
+    "gorev_uyumu": [
+     4.58,
+     4.29
+    ],
+    "akicilik": [
+     4.58,
+     4.58
+    ]
+   }
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "temel": 4.62,
+   "skill": 4.67,
+   "fark": 0.04,
+   "iyi_esit_kotu": [
+    3,
+    3,
+    2
+   ],
+   "denetle": [
+    1,
+    1
+   ],
+   "olcut": {
+    "imla_noktalama": [
+     5,
+     4.83
+    ],
+    "dogallik": [
+     4.46,
+     4.58
+    ],
+    "gorev_uyumu": [
+     4.58,
+     4.5
+    ],
+    "akicilik": [
+     4.46,
+     4.75
+    ]
+   }
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "temel": 4.39,
+   "skill": 4.41,
+   "fark": 0.02,
+   "iyi_esit_kotu": [
+    4,
+    0,
+    4
+   ],
+   "denetle": [
+    1,
+    1
+   ],
+   "olcut": {
+    "imla_noktalama": [
+     4.58,
+     4.62
+    ],
+    "dogallik": [
+     4.21,
+     4.33
+    ],
+    "gorev_uyumu": [
+     4.42,
+     4.29
+    ],
+    "akicilik": [
+     4.33,
+     4.37
+    ]
+   }
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "temel": 4.67,
+   "skill": 4.52,
+   "fark": -0.15,
+   "iyi_esit_kotu": [
+    1,
+    3,
+    4
+   ],
+   "denetle": [
+    3,
+    1
+   ],
+   "olcut": {
+    "imla_noktalama": [
+     4.88,
+     4.92
+    ],
+    "dogallik": [
+     4.67,
+     4.5
+    ],
+    "gorev_uyumu": [
+     4.58,
+     4.21
+    ],
+    "akicilik": [
+     4.54,
+     4.46
+    ]
+   }
+  }
+ ],
+ "puanlar": [
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "a",
+   "kor_kod": "Y001",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ya göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+   "puan": {
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]",
+    "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]",
+    "\"TDK'ya göre\" olduğu gibi kalmış, doğrusu \"TDK'ye\"; öbür düzeltmeler (sen de, misin, 14.30, Ayşe'ye, ben de, ki) doğru. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "e",
+   "kor_kod": "Y002",
+   "metin": "Düzenli egzersiz, sağlıklı bir yaşam için önemlidir; fiziksel sağlığı iyileştirirken zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet, etkili, erişilebilir ve sürdürülebilir seçenekler arasındadır. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Egzersiz, hayatımızın vazgeçilmez bir parçası olmalıdır.",
+   "puan": {
+    "imla_noktalama": 3.667,
+    "dogallik": 4,
+    "gorev_uyumu": 4.667,
+    "akicilik": 4,
+    "ortalama": 4.083
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    4.25,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"bisiklet, etkili\" öznenin ardında gereksiz virgül; bilgiler korunmuş.",
+    "Kalıplar temizlenmiş, bilgi kaybı yok. \"Yürüyüş, yüzme ve bisiklet, etkili, erişilebilir...\" ardışık virgülü okumayı bozuyor; \"vazgeçilmez bir parçası olmalıdır\" biraz resmî kalmış.",
+    "\"Yürüyüş, yüzme ve bisiklet, etkili\" cümlesinde gereksiz virgül var ve \"gibi aktiviteler\" düşmüş. Kalıplar temizlenmiş, ama \"hayatımızın vazgeçilmez bir parçası olmalıdır\" biraz resmî kalmış."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "e",
+   "kor_kod": "Y003",
+   "metin": "Düzenli egzersiz, sağlıklı bir yaşam için büyük önem taşır. Yalnızca fiziksel sağlığı iyileştirmekle kalmaz, zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet gibi aktiviteler hem etkili hem de kolay erişilebilir ve sürdürülebilir seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Bu doğrultuda egzersiz, hayatımızın bir parçası hâline gelmelidir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 3.667,
+    "akicilik": 4,
+    "ortalama": 3.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    3.75,
+    4
+   ],
+   "denetle_bulgu_sayisi": 3,
+   "denetle_bulgular": [
+    "AI-Tier1: büyük önem taşır",
+    "AI-Tier1: Bu doğrultuda",
+    "Ritim-İpucu: cümle boyları=[9, 10, 15, 11, 8]"
+   ],
+   "gerekceler": [
+    "'büyük önem taşır' ve 'Bu doğrultuda' YZ kalıbı olarak kalmış; 'vazgeçilmez' yerine 'bir parçası hâline gelmelidir' ile anlam zayıflamış.",
+    "\"büyük önem taşır\" ve \"Bu doğrultuda\" kalmış, \"vazgeçilmez\" yumuşatılmış.",
+    "\"büyük önem taşır\" ve \"Bu doğrultuda egzersiz...\" YZ kalıbı olarak duruyor. Bilgi korunmuş, yazım temiz."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "f",
+   "kor_kod": "Y004",
+   "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması talebi\n\nİlgi: [İLGİLİ MAHALLE / SOKAK BİLGİSİ]\n\n[MAHALLE ADI] Mahallesi, [SOKAK ADI] Sokak'ta ikamet etmekteyim. Oturduğum sokaktaki sokak lambası yaklaşık üç haftadır yanmamaktadır. Bu nedenle akşam saatlerinde sokak karanlık kalmakta, bu durum özellikle yayalar için güvenlik açısından tehlike oluşturmaktadır.\n\nGereğinin yapılarak söz konusu sokak lambasının en kısa sürede onarılmasını saygılarımla arz ederim.\n\nTarih: [TARİH]\n\nAd Soyad: [AD SOYAD]\nAdres: [ADRES]\nİmza: [İMZA]",
+   "puan": {
+    "imla_noktalama": 3.667,
+    "dogallik": 4,
+    "gorev_uyumu": 3.667,
+    "akicilik": 4,
+    "ortalama": 3.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.5,
+    4,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"İlgi:\" kullanımı yanlış, \"[SOKAK ADI] Sokak'ta\" kesmesi hatalı; fazladan yer tutucu ekliyor.",
+    "\"[SOKAK ADI] Sokak'ta\" ek ve kesme kullanımı kusurlu. \"İlgi: [İLGİLİ MAHALLE / SOKAK BİLGİSİ]\" satırı gereksiz; yer tutucular ve resmî üslup yerinde.",
+    "\"Sokak'ta\" kesmesi yersiz, \"İlgi: [İLGİLİ MAHALLE / SOKAK BİLGİSİ]\" satırı gereksiz ve yapay. Yer tutucular doğru kullanılmış, uydurma bilgi yok."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "h",
+   "kor_kod": "Y005",
+   "metin": "Katılımcılara uygulanan anketin sonuçları analiz edildiğinde, egzersiz sıklığının artırılmasının uyku kalitesini olumlu yönde etkilediği ve bu etkinin yaş gruplarına göre farklılaştığı belirlenmiştir. Bu bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: belirlenmiştir"
+   ],
+   "gerekceler": [
+    "Kusur yok; -mIştIr akademik metinde uygun, bulgu ve kesinlik korunmuş.",
+    "Kusur yok.",
+    "Kusur yok. Anlam ve kesinlik korunmuş, akademik dil sade; \"belirlenmiştir\" bu türde yerinde, denetleyici uyarısı yanlış alarm."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "g",
+   "kor_kod": "Y006",
+   "metin": "Önbellek, tarayıcının daha önce ziyaret ettiğiniz sitelerden aldığı görsel ve diğer dosyaların bazılarını cihazınızda geçici olarak sakladığı alandır. Tarayıcı aynı dosyalara yeniden ihtiyaç duyduğunda bunları tekrar indirmek yerine önbellekten kullanabilir; böylece sayfalar daha hızlı açılabilir. Bazen saklanan dosyalar sitenin güncel hâliyle uyuşmaz ve sayfanın yanlış görünmesine veya bazı işlevlerin çalışmamasına yol açabilir. Önbelleği temizlemek, tarayıcının bu dosyaları yeniden indirmesini sağlayarak sorunu çözebilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 4.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok.",
+    "Kusur yok. Dört cümle, sade ve teknik olarak doğru; \"yanlış görünmesine veya bazı işlevlerin çalışmamasına\" gibi akıcı bağlantılar var.",
+    "Dört cümlelik tek paragraf, teknik olarak doğru. \"görsel ve diğer dosyaların bazılarını\" ifadesi biraz hantal."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "g",
+   "kor_kod": "Y007",
+   "metin": "Web tarayıcınızın önbelleği, ziyaret ettiğiniz internet sitelerindeki resim, logo ve sayfa tasarımı gibi bazı dosyaları cihazınızda geçici olarak saklayan bir hafızadır. Bu sistem sayesinde aynı siteye tekrar girdiğinizde tüm veriler internetten yeniden indirilmez ve sayfalar çok daha hızlı açılır. Ancak bir internet sitesi güncellendiğinde tarayıcınız yeni verileri çekmek yerine hafızasındaki eski dosyaları göstermeye devam edebilir. Bu durum sayfaların hatalı yüklenmesine, bazı butonların çalışmamasına ya da eski içeriklerin ekranda kalmasına yol açar. İşte bu teknik uyumsuzlukları gidermek ve sitenin en güncel hâlini sorunsuzca görebilmek için zaman zaman kullanıcılara önbelleği temizlemeleri söylenir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4.25
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[21, 18, 16, 16, 19]"
+   ],
+   "gerekceler": [
+    "'tüm veriler internetten yeniden indirilmez' abartılı, 'teknik uyumsuzlukları gidermek' ve 'söylenir' ağır duruyor.",
+    "Görevde 4-5 cümle istenmiş, \"İşte bu teknik uyumsuzlukları gidermek...\" ve \"zaman zaman kullanıcılara... söylenir\" kalıbı kasıntı; ayrıca 5 cümleyi zor tutuyor.",
+    "Beş cümle, içerik doğru. \"İşte bu teknik uyumsuzlukları gidermek ve ... sorunsuzca görebilmek için\" gereksiz uzun; cümle boyları da tekdüze."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "b",
+   "kor_kod": "Y008",
+   "metin": "Bu akşam yemeğe yaklaşık 30 dakika gecikeceğim, trafik çok yoğun. Siz masayı tutup siparişe başlayın, ben geliyorum.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok.",
+    "Kusur yok. Samimi, kısa, tek mesaj; \"Siz masayı tutup siparişe başlayın, ben geliyorum.\" doğal.",
+    "Kusur yok; kısa, samimi, tek mesaj ve istenen her şey var."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "c",
+   "kor_kod": "Y009",
+   "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesine yardımcı olur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Doğal, ancak 'önemli bir rol' ve 'kendi' düşmüş; 'yardımcı olur' anlamı hafifletmiş.",
+    "Doğal. \"önemli bir rol\" nüansı düşmüş.",
+    "Çeviri kokusu giderilmiş. \"kendi\" ve \"önemli rol\" vurgusu düşmüş, \"yardımcı olur\" anlamı biraz yumuşatmış."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "e",
+   "kor_kod": "Y010",
+   "metin": "Sağlıklı bir yaşam için düzenli egzersiz çok önemlidir. Egzersiz hem fiziksel hem zihinsel sağlığı iyileştirir. Yürüyüş, yüzme ve bisiklet gibi etkinlikler etkili olduğu kadar erişilebilir seçeneklerdir, üstelik sürdürmesi de kolaydır. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz öneriyor. Kısacası egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+   "puan": {
+    "imla_noktalama": 4.667,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4.167
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"etkili olduğu kadar erişilebilir seçeneklerdir, üstelik sürdürmesi de kolaydır\" biraz kıvrık.",
+    "\"etkili olduğu kadar erişilebilir seçeneklerdir, üstelik sürdürmesi de kolaydır\" özne uyumsuz ve virgülle birleşik. Bunun dışında doğal, bilgi korunmuş.",
+    "\"sürdürmesi de kolaydır\" öznesi belirsiz kalmış ve \"sürdürülebilir\" anlamı kaymış. \"iyileştirir\" ile \"katkı sağlar\" yerine geçen kesinlik de biraz artmış."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "b",
+   "kor_kod": "Y011",
+   "metin": "Trafik çok yoğun, bu akşamki yemeğe yaklaşık yarım saat gecikeceğim. Masayı tutun, beni beklemeden sipariş verin.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; kısa, samimi, tek mesaj ve tüm istekler karşılanmış.",
+    "Kusur yok.",
+    "Kusur yok. Doğal, kısa ve istenen her unsuru taşıyor (yarım saat, trafik, masa, sipariş)."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "h",
+   "kor_kod": "Y012",
+   "metin": "Katılımcılara uygulanan anket sonuçlarının analizi sonucunda, egzersiz sıklığındaki artışın uyku kalitesini olumlu etkilediği tespit edilmiştir. Yaş grupları arasında farklılık gösterdiği de gözlenen bu bulgu, literatürle örtüşmektedir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4.333,
+    "akicilik": 4,
+    "ortalama": 4.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: edilmiştir, örtüşmektedir"
+   ],
+   "gerekceler": [
+    "\"Yaş grupları arasında farklılık gösterdiği de gözlenen bu bulgu\" bulguyu bulanıklaştırıyor.",
+    "\"Yaş grupları arasında farklılık gösterdiği de gözlenen bu bulgu\" farkın neye ait olduğunu bulandırıyor. Genel olarak doğal akademik dil, anlam büyük ölçüde korunmuş.",
+    "Anlam ve kesinlik korunmuş. \"analizi sonucunda\" ve \"örtüşmektedir\" biraz ağır, \"gözlenen bu bulgu\" yapısı da dolambaçlı."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "d",
+   "kor_kod": "Y013",
+   "metin": "500 ml kapasiteli paslanmaz çelik termos, içeceğinizi 12 saat sıcak veya 24 saat soğuk tutar. Bulaşık makinesinde yıkanabilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; bilgiler eksiksiz, uydurma özellik yok, iki cümle.",
+    "Kusur yok.",
+    "Verilen bilgiler eksiksiz, uydurma yok; iki cümle. İkinci cümle \"Bulaşık makinesinde yıkanabilir.\" biraz kuru."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "f",
+   "kor_kod": "Y014",
+   "metin": "[TARİH]\n\n[BELEDİYE ADI] BAŞKANLIĞINA\n\nKonu: Sokak Lambasının Onarılması Talebi\n\n[ADRES] adresindeki sokağımızda bulunan sokak lambası üç haftadır yanmamaktadır. Akşam saatlerinde yol karanlık kaldığından bu durum yayalar için tehlike oluşturmaktadır.\n\nArızalı lambanın incelenerek en kısa sürede onarılması için gereğini saygılarımla arz ederim.\n\n[AD SOYAD]\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4.333,
+    "akicilik": 4,
+    "ortalama": 4.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"[ADRES] adresindeki sokağımızda\" kafa karıştırıcı, [ADRES] iki kez geçiyor.",
+    "\"[ADRES] adresindeki sokağımızda bulunan sokak lambası\" yapısı kasıntı; \"incelenerek\" kaynakta olmayan küçük ekleme. Yer tutucular ve resmî biçim doğru.",
+    "Yer tutucular tam. \"[ADRES] adresindeki sokağımızda bulunan sokak lambası\" tekrarlı ve ağır, \"Adres\" satırı da yineleniyor."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "a",
+   "kor_kod": "Y015",
+   "metin": "Sen de yarınki toplantıya gelecek misin yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin çünkü ben de bilmiyorum ki kimler gelecek?",
+   "puan": {
+    "imla_noktalama": 2.333,
+    "dogallik": 3,
+    "gorev_uyumu": 3.333,
+    "akicilik": 2.333,
+    "ortalama": 2.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    2.5,
+    2.5,
+    3.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Doğru virgüller silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Cümle sonda \"?\" ile bitse de virgülsüz uzun yapı nefessiz okunuyor.",
+    "Doğru olan iki virgül silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Virgülsüz uzun cümle okunurluğu düşürüyor ve yapıyı bozuyor.",
+    "Yazım düzeltmeleri ve \"TDK'ye\" doğru, sondaki \"?\" var; ama doğru olan iki virgül silinmiş (\"misin yoksa\", \"gideceksin çünkü\"). Bu yüzden uzun cümle tek solukta okunuyor."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "c",
+   "kor_kod": "Y016",
+   "metin": "Bu yeni özellik, kullanıcıların verilerini daha iyi yönetmesine önemli bir katkı sağlıyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3.667,
+    "gorev_uyumu": 4,
+    "akicilik": 4.667,
+    "ortalama": 4.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"önemli bir katkı sağlıyor\" kalıpça kalmış, \"kendi\" düşmüş.",
+    "\"önemli bir katkı sağlıyor\" hâlâ çeviri kalıbı; \"kendi\" düşmüş. Cümle okunur ama doğal sayılmaz.",
+    "\"önemli bir katkı sağlıyor\" hâlâ kalıp tadında; \"kendi\" düşmüş, \"etkili\" yerine \"iyi\" gelmiş."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "a",
+   "kor_kod": "Y017",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru.",
+    "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor.",
+    "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "b",
+   "kor_kod": "Y018",
+   "metin": "Selam! Trafik felaket kilitlendi, yemeğe yaklaşık 30 dakika gecikeceğim. Siz lütfen masayı tutun ve beni hiç beklemeden siparişleri verin, gelince hemen yetişirim.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4.667,
+    "akicilik": 3.667,
+    "ortalama": 4.083
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    3.75,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"Trafik felaket kilitlendi\" ve \"gelince hemen yetişirim\" kulağa tuhaf, \"lütfen\" samimi mesajda kasıntı.",
+    "\"Trafik felaket kilitlendi\", \"Siz lütfen... siparişleri verin\" ve \"gelince hemen yetişirim\" yapay ve mantık olarak tuhaf; samimiyet zorlama.",
+    "\"Trafik felaket kilitlendi\" yapay bir söyleyiş. \"Siz lütfen masayı tutun ... siparişleri verin\" de samimi mesaja göre fazla resmî."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "h",
+   "kor_kod": "Y019",
+   "metin": "Anket sonuçlarının analizi, egzersiz sıklığının artırılmasının uyku kalitesini olumlu etkilediğini ve bu etkinin yaş grupları arasında farklılık gösterdiğini ortaya koymuştur. Bu bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.667
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: koymuştur"
+   ],
+   "gerekceler": [
+    "Akıcı ve doğal; 'Katılımcılara uygulanan' bilgisi düşmüş.",
+    "Akıcı ve doğal. \"Katılımcılara uygulanan\" bilgisi düşmüş.",
+    "Akıcı ve kesinlik korunmuş. \"Katılımcılara uygulanan\" bilgisi düşmüş; \"ortaya koymuştur\" bulguyu bir miktar güçlendirmiş."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "b",
+   "kor_kod": "Y020",
+   "metin": "Trafik çok yoğun, bu akşamki yemeğe yaklaşık 30 dakika gecikeceğim. Siz masayı tutun, beni beklemeden siparişe başlayın.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok.",
+    "Kusur yok. Kısa, doğal, istenen her unsur var.",
+    "Kusur yok; kısa ve doğal, tüm istekler karşılanmış."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "d",
+   "kor_kod": "Y021",
+   "metin": "500 ml kapasiteye sahip bu paslanmaz çelik termos, sıcak içeceklerinizi 12 saat, soğuk içeceklerinizi ise 24 saat boyunca korur. Pratik bir temizlik için bulaşık makinesinde güvenle yıkanabilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    4,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'kapasiteye sahip bu' kalıbı çeviri kokuyor; 'güvenle yıkanabilir' ve 'Pratik bir temizlik' kaynakta olmayan süs.",
+    "\"500 ml kapasiteye sahip\" çeviri kokuyor, \"Pratik bir temizlik için ... güvenle\" süs ve ek iddia.",
+    "\"500 ml kapasiteye sahip\" ve \"Pratik bir temizlik için ... güvenle yıkanabilir\" süslü; \"güvenle\" kaynakta olmayan küçük bir iddia."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "h",
+   "kor_kod": "Y022",
+   "metin": "Anket sonuçlarının analizi, egzersiz sıklığının artırılmasının uyku kalitesi üzerinde olumlu bir etkisi olduğunu ve bu etkinin yaş grupları arasında farklılık gösterdiğini ortaya koymuştur. Bu bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4.25
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: koymuştur"
+   ],
+   "gerekceler": [
+    "\"Katılımcılara uygulanan\" düşmüş. \"üzerinde olumlu bir etkisi olduğunu\" gereksiz uzun.",
+    "\"Katılımcılara uygulanan\" düşmüş; \"olumlu bir etkisi olduğunu ... farklılık gösterdiğini ortaya koymuştur\" ağır ama kabul edilebilir akademik dil.",
+    "\"uyku kalitesi üzerinde olumlu bir etkisi olduğunu\" ağır kalmış ve \"Katılımcılara uygulanan\" bilgisi silinmiş."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "e",
+   "kor_kod": "Y023",
+   "metin": "Düzenli egzersiz sağlıklı yaşamın temel taşlarından biridir. Hem fiziksel hem zihinsel sağlığa iyi gelir. Yürüyüş, yüzme ve bisiklet gibi etkinlikler hem etkili hem erişilebilir, üstelik uzun süre sürdürülebilir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını önerir. Egzersiz hayatımızdan eksik olmamalı.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4.333,
+    "ortalama": 4.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'temel taşlarından biridir' kalıp, 'uzun süre sürdürülebilir' gereksiz tekrar; genel olarak doğal.",
+    "\"temel taşlarından biridir\" kaynakta olmayan bir kalıp, \"hem... hem\" tekrar ediyor. Bilgiler korunmuş.",
+    "\"temel taşlarından biridir\" klişe ve kaynaktaki \"önem\"i abartıyor; \"uzun süre\" eklenmiş. Ritim ve akış iyi."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "b",
+   "kor_kod": "Y024",
+   "metin": "Selam, trafik felaket, yemeğe yarım saat kadar geç kalacağım. Masayı tutun, beni beklemeden siparişe başlayın, ben de yetişirim.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Samimi ve doğal. \"ben de yetişirim\" içindeki \"de\" gereksiz.",
+    "Kusur yok. \"Selam, trafik felaket, yemeğe yarım saat kadar geç kalacağım.\" samimi ve doğal.",
+    "Kusur yok; \"trafik felaket\" gibi doğal konuşma dili ve tek mesaj."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "c",
+   "kor_kod": "Y025",
+   "metin": "Bu yeni özellik önemli, çünkü kullanıcılar verilerini onun sayesinde daha etkili yönetebiliyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3.667,
+    "gorev_uyumu": 4,
+    "akicilik": 3.667,
+    "ortalama": 4.083
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.75,
+    4.25,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'Bu yeni özellik önemli, çünkü ... onun sayesinde' kullanımı kaba ve takılıyor; anlam kısmen korunmuş.",
+    "\"Bu yeni özellik önemli, çünkü...\" neden-sonuç ilişkisini tersine çevirmiş ve \"kendi\" düşmüş.",
+    "\"Bu yeni özellik önemli, çünkü...\" anlamı korumuş ama \"kendi\" düşmüş, \"onun sayesinde\" biraz dolambaçlı."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "e",
+   "kor_kod": "Y026",
+   "metin": "Düzenli egzersiz, sağlıklı bir yaşam için çok önemlidir. Egzersiz yalnızca beden sağlığını iyileştirmekle kalmaz, zihinsel sağlığa da iyi gelir. Yürüyüş, yüzme ve bisiklet bu konuda etkili, herkesin kolayca yapabileceği ve uzun süre sürdürülebilecek seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Kısacası egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 4.333,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.75,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[8, 11, 15, 11, 7]"
+   ],
+   "gerekceler": [
+    "Doğal bir dil kullanılmış. \"herkesin kolayca yapabileceği\" \"erişilebilir\"i hafifçe genişletiyor.",
+    "Doğal ve akıcı. \"herkesin kolayca yapabileceği\" kaynaktaki \"erişilebilir\"i hafifçe yorumlamış.",
+    "\"herkesin kolayca yapabileceği\" kaynaktaki \"erişilebilir\" ifadesini genişletmiş ve \"gibi\" düşmüş. Cümleler dengeli ama ritim biraz düz."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "f",
+   "kor_kod": "Y027",
+   "metin": "[BELEDİYE ADI] BELEDİYESİNE\n\nKonu: Sokak lambasının onarılması talebi\n\nOturduğum sokaktaki sokak lambası üç haftadır yanmıyor. Bu nedenle akşamları yol karanlık kalıyor ve yayalar için tehlike oluşuyor. Lambanın onarılmasını arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\n\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3.667,
+    "gorev_uyumu": 4.333,
+    "akicilik": 4.333,
+    "ortalama": 4.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.5,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'Lambanın onarılmasını arz ederim' bozuk kalıp, 'yanmıyor' ile resmî üslup tutarsız; yer tutucular tam.",
+    "Sade ve akıcı ama \"Lambanın onarılmasını arz ederim.\" saygı ifadesinden yoksun ve resmî dilekçe için kuru.",
+    "\"Lambanın onarılmasını arz ederim.\" saygı kalıbı eksik ve fazla kısa; \"yanmıyor\" resmî üsluba göre sade. Yer tutucular tam."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "e",
+   "kor_kod": "Y028",
+   "metin": "Düzenli egzersiz, sağlıklı bir yaşam için önemlidir; fiziksel sağlığın yanı sıra zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet gibi aktiviteler etkili, erişilebilir ve sürdürülebilir seçeneklerdir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Egzersiz hayatımızın vazgeçilmez bir parçası olmalıdır.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "ortalama": 4.5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Tüm bilgiler korunmuş, kalıplar temizlenmiş. \"olmalıdır\" biraz resmî.",
+    "Bilgiler eksiksiz, yazım temiz. \"vazgeçilmez bir parçası olmalıdır\" kaynaktan aynen alınmış, biraz resmî.",
+    "Bilgiler eksiksiz. \"katkıda bulunur\" ve \"vazgeçilmez bir parçası olmalıdır\" hâlâ biraz kalıp."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "h",
+   "kor_kod": "Y029",
+   "metin": "Katılımcılara uygulanan anketlerin analizinde, egzersiz sıklığını artırmanın uyku kalitesini olumlu etkilediği tespit edilmiştir. Yaş gruplarına göre farklılık gösterdiği de gözlenen bu sonuç, literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 4.333,
+    "akicilik": 4.333,
+    "ortalama": 4.5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.25,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: edilmiştir"
+   ],
+   "gerekceler": [
+    "Kusur yok; anlam ve kesinlik korunmuş, akıcı akademik Türkçe.",
+    "\"anketlerin analizinde\" çoğul, kaynaktaki \"anket sonuçları\"ndan kayma var. \"farklılık gösterdiği de gözlenen bu sonuç\" ağır.",
+    "\"anketlerin\" çoğullaşmış; \"Yaş gruplarına göre farklılık gösterdiği de gözlenen bu sonuç\" kurgusu bulanık. Genelde doğal ve kesinlik korunmuş."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "f",
+   "kor_kod": "Y030",
+   "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması talebi\n\n[ADRES] adresinde oturmaktayım. Sokağımızdaki sokak lambası üç haftadır yanmamaktadır. Bu nedenle akşam saatlerinde yol karanlık kalmakta ve bu durum yayalar için tehlike oluşturmaktadır.\n\nSöz konusu lambanın en kısa sürede onarılması için gereğinin yapılmasını saygılarımla arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "ortalama": 4.5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Yer tutucular ve dilekçe düzeni tam. \"Sokağımızdaki sokak lambası\" tekrar ediyor, \"-maktadır\" yığılmış ama kalıp olarak kabul edilebilir.",
+    "Resmî biçim ve yer tutucular tam. \"Sokağımızdaki sokak lambası\" tekrarı ve \"gereğinin yapılmasını\" kalıbı biraz ağır.",
+    "\"Sokağımızdaki sokak lambası\" tekrarı var, \"Adres: [ADRES]\" iki kez geçiyor. Resmî dil uygun ve yer tutucular tam."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "c",
+   "kor_kod": "Y031",
+   "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini sağladığı için önemli bir yere sahip.",
+   "puan": {
+    "imla_noktalama": 4.667,
+    "dogallik": 3,
+    "gorev_uyumu": 4.667,
+    "akicilik": 4,
+    "ortalama": 4.083
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    3.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'önemli bir yere sahip' hâlâ 'sahip olmak' çevirisi; anlam korunmuş.",
+    "\"önemli bir yere sahip\" çeviri kokan \"-e sahip olmak\" kalıbı. Anlam eksiksiz korunmuş.",
+    "\"önemli bir yere sahip.\" hâlâ \"-e sahip\" kalıbı ve \"olmak\" eksik; anlam korunmuş."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "h",
+   "kor_kod": "Y032",
+   "metin": "Katılımcılara uygulanan anket sonuçlarının analizi, egzersiz sıklığındaki artışın uyku kalitesi üzerinde olumlu bir etkiye sahip olduğunu ve bu durumun yaş grupları arasında farklılık gösterdiğini ortaya koymuştur. Elde edilen bu bulgu literatür ile uyumluluk göstermektedir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 2.333,
+    "gorev_uyumu": 3,
+    "akicilik": 3.333,
+    "ortalama": 3.417
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.25,
+    3.75,
+    3.25
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: koymuştur, göstermektedir"
+   ],
+   "gerekceler": [
+    "Neredeyse çevrilmemiş: \"etkiye sahip olduğunu\", \"farklılık gösterdiğini\", \"uyumluluk göstermektedir\" kalıpları aynen duruyor.",
+    "\"olumlu bir etkiye sahip olduğunu\" ve \"literatür ile uyumluluk göstermektedir\" aynen kalmış; doğallaştırma neredeyse yapılmamış.",
+    "\"etkiye sahip olduğunu\" ve \"uyumluluk göstermektedir\" gibi çeviri kokulu kalıplar aynen duruyor. \"literatür ile\" de bitişik yazılmamış."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "a",
+   "kor_kod": "Y033",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin, çünkü ben de bilmiyorum ki kimler gelecek?",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok.",
+    "Kusur yok.",
+    "Kusur yok."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "d",
+   "kor_kod": "Y034",
+   "metin": "Bu 500 ml'lik paslanmaz çelik termos, sıcak içeceklerinizi 12 saat, soğuk içeceklerinizi 24 saat boyunca korur. Gün boyu yanınızda taşıyabileceğiniz bu termos, bulaşık makinesinde yıkanabildiği için temizliği de kolaydır.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 3,
+    "akicilik": 4.333,
+    "ortalama": 4.167
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    4.5,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"Gün boyu yanınızda taşıyabileceğiniz\" verilmeyen bir özellik ekliyor.",
+    "Akıcı. \"Gün boyu yanınızda taşıyabileceğiniz\" verilen bilgide olmayan bir özellik eklemesi.",
+    "\"Gün boyu yanınızda taşıyabileceğiniz\" verilmeyen bir özelliği ekliyor (uydurma)."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "a",
+   "kor_kod": "Y035",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin; çünkü ben de bilmiyorum ki kimler gelecek?",
+   "puan": {
+    "imla_noktalama": 4,
+    "dogallik": 4.333,
+    "gorev_uyumu": 4,
+    "akicilik": 4.667,
+    "ortalama": 4.25
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Girdide doğru olan virgül \"gideceksin; çünkü\" diye noktalı virgüle çevrilmiş; gereksiz değişiklik ama anlam bozulmuyor. Diğer düzeltmeler ve sondaki \"?\" doğru.",
+    "Sonda \"?\" var, düzeltmeler doğru. Girdideki doğru virgül \"gideceksin; çünkü\" diye noktalı virgüle çevrilmiş, bu gereksiz bir değişiklik.",
+    "Düzeltmeler doğru, ama girdide doğru olan \"gideceksin, çünkü\" virgülü noktalı virgüle çevrilmiş (\"gideceksin; çünkü\"). Bu gereksiz bir noktalama değişikliği."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "c",
+   "kor_kod": "Y036",
+   "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmelerine yardımcı oluyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4.333,
+    "akicilik": 5,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Doğal ve akıcı. \"önemli bir rol\" düşmüş, anlam hafif eksilmiş.",
+    "Kusur yok. \"kendi verilerini daha etkili yönetmelerine yardımcı oluyor\" anlamı koruyup doğal söylüyor.",
+    "Doğal ve akıcı. \"önemli bir rol\" vurgusu \"yardımcı oluyor\" ile silikleşmiş."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "e",
+   "kor_kod": "Y037",
+   "metin": "Sağlıklı bir yaşam için düzenli egzersiz yapmak belirleyicidir. Hareket etmek bedeni iyileştirmekle birlikte zihinsel sağlığı da güçlendirir. Yürüyüş, yüzme ve bisiklet ise kolay erişilen, uzun süre devam ettirilebilecek etkili seçeneklerdir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Kısacası egzersizi hayatın kalıcı bir parçası hâline getirmek gerekir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3.667,
+    "gorev_uyumu": 3.333,
+    "akicilik": 4,
+    "ortalama": 4.0
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    3.75,
+    4
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[8, 9, 13, 11, 9]"
+   ],
+   "gerekceler": [
+    "'egzersiz yapmak belirleyicidir' yapay duruyor; 'Hareket etmek' ve 'kalıcı' ifadeleri kaynağı kaydırmış.",
+    "\"belirleyicidir\" anlamı kaydırıyor, \"vazgeçilmez\" yerine \"kalıcı\" gelmiş. \"bisiklet ise\" zıtlık olmadığı için yersiz.",
+    "\"egzersiz yapmak belirleyicidir\", \"Hareket etmek\" ve \"kalıcı bir parçası\" kaynağın anlamını kaydırıyor; cümle boyları tekdüze."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "e",
+   "kor_kod": "Y038",
+   "metin": "Dünyanın hızla değiştiği bir dönemde, düzenli egzersiz sağlıklı bir yaşam için çok önemli. Egzersiz hem fiziksel hem de zihinsel sağlığa katkıda bulunur. Yürüyüş, yüzme ve bisiklet, etkili, erişilebilir ve sürdürülebilir egzersiz seçenekleridir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+   "puan": {
+    "imla_noktalama": 3.667,
+    "dogallik": 3.333,
+    "gorev_uyumu": 3.667,
+    "akicilik": 4,
+    "ortalama": 3.667
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.25,
+    4.25,
+    3.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[13, 9, 10, 11, 6]"
+   ],
+   "gerekceler": [
+    "\"Dünyanın hızla değiştiği bir dönemde\" yapay zekâ girişi olduğu gibi kalmış. \"bisiklet, etkili\" öznenin ardında virgül var ve \"önemli.\" ile \"seçenekleridir\" üslubu karışık.",
+    "Bilgi tam korunmuş ama \"Dünyanın hızla değiştiği bir dönemde\" YZ açılışı duruyor; \"bisiklet, etkili, erişilebilir\" virgül dizilimi karışık.",
+    "\"Dünyanın hızla değiştiği bir dönemde\" kaldırılması gereken açılış kalıbını koruyor. \"bisiklet, etkili\" virgülü hatalı ve \"gibi\" düşmüş."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "a",
+   "kor_kod": "Y039",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru.",
+    "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor.",
+    "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "f",
+   "kor_kod": "Y040",
+   "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\n[TARİH]\n\nKonu: Arızalı sokak lambasının onarılması talebi.\n\nİkamet ettiğim [ADRES] adresindeki sokakta bulunan sokak lambası üç haftadır yanmamaktadır. Bu nedenle akşamları yol karanlık kalmakta ve yayalar için tehlike oluşturmaktadır.\n\nSöz konusu lambanın en kısa sürede onarılması hususunda gereğini arz ederim.\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "ortalama": 4.25
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Yer tutucular tam. \"Konu: ... talebi.\" satırı noktayla bitmiş; \"onarılması hususunda gereğini arz ederim\" ağır.",
+    "Yer tutucular ve resmî yapı tam. \"Konu: ... talebi.\" sonundaki nokta gereksiz; \"hususunda gereğini arz ederim\" kalıp.",
+    "\"Konu: ... talebi.\" satırında gereksiz nokta var. \"hususunda gereğini arz ederim\" ve \"sokakta bulunan sokak lambası\" ağır ve tekrarlı."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "b",
+   "kor_kod": "Y041",
+   "metin": "Selam! Trafik çok yoğun, bu akşamki yemeğe yaklaşık yarım saat geç kalacağım. Masayı tutun, beni beklemeden siparişe başlayın, ben gelince yetişirim.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'ben gelince yetişirim' hafif mantık takılması dışında doğal ve samimi.",
+    "Samimi tek mesaj. \"ben gelince yetişirim\" mantıken biraz tuhaf.",
+    "Samimi ve eksiksiz; \"ben gelince yetişirim\" mantık olarak biraz tuhaf."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "f",
+   "kor_kod": "Y042",
+   "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\n[TARİH]\n\nİlçeniz sınırları içerisindeki [ADRES] adresinde ikamet etmekteyim. Sokağımızda bulunan sokak lambası yaklaşık üç haftadır yanmamaktadır. Akşam saatlerinde sokağın karanlıkta kalması nedeniyle yol, yayalar için tehlike oluşturmaktadır.\n\nSöz konusu arızalı sokak lambasının ivedilikle onarılmasını saygılarımla arz ve talep ederim.\n\n[AD SOYAD]\n\nAdres:\n[ADRES]",
+   "puan": {
+    "imla_noktalama": 4.667,
+    "dogallik": 3.667,
+    "gorev_uyumu": 3.667,
+    "akicilik": 4,
+    "ortalama": 4.0
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.75,
+    4.25,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"İlçeniz sınırları içerisindeki\" kaynakta olmayan bir varsayım, \"yaklaşık üç haftadır\" kesinliği gevşetiyor. \"ikamet etmekteyim\", \"arz ve talep ederim\" gibi kalıplar da yığılmış.",
+    "\"İlçeniz sınırları içerisindeki\" belediye türü hakkında kaynakta olmayan varsayım; \"yol, yayalar için tehlike oluşturmaktadır\" biraz bulanık. Dil resmî ve düzgün.",
+    "\"İlçeniz sınırları içerisindeki\" kaynakta olmayan bir varsayım, \"Konu\" satırı yok. \"yol, yayalar için\" virgülü ve \"arz ve talep\" ağır."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "a",
+   "kor_kod": "Y043",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin, çünkü ben de bilmiyorum ki kimler gelecek.",
+   "puan": {
+    "imla_noktalama": 3.333,
+    "dogallik": 4.333,
+    "gorev_uyumu": 4,
+    "akicilik": 4.667,
+    "ortalama": 4.083
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.5,
+    4,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Soru içeren cümle \"kimler gelecek.\" diye noktayla bitmiş, soru işareti kaçırılmış. Yazım düzeltmeleri ve virgüller doğru.",
+    "Diğer düzeltmeler ve virgüller doğru, ancak soru cümlesi \"kimler gelecek.\" diye noktayla bitmiş; soru işareti kaçırılmış.",
+    "Yazım düzeltmeleri ve virgüller doğru, ama soru cümlesi sonda nokta ile bitmiş (\"kimler gelecek.\"); \"?\" beklenirdi."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "f",
+   "kor_kod": "Y044",
+   "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Sokak Lambasının Onarılması\n\n[ADRES] adresinde ikamet ediyorum. Oturduğum sokaktaki sokak lambası üç haftadır yanmıyor. Akşamları yolun karanlık kalması yayalar için tehlike oluşturuyor.\n\nLambanın onarılmasını arz ederim.\n\nTarih: [TARİH]\nAd Soyad: [AD SOYAD]\nİmza:\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4.25
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Yer tutucular tam ama \"Lambanın onarılmasını arz ederim.\" çok kuru, saygı ifadesi yok; \"yanmıyor\" gibi sade fiillerle \"arz ederim\" karışık bir ton veriyor.",
+    "\"Lambanın onarılmasını arz ederim.\" kısa ve \"oturduğum sokaktaki sokak lambası\" tekrarlı; resmî üslup biraz sade. Yer tutucular tam.",
+    "\"yanmıyor\" gibi konuşma kipi ile \"arz ederim\" karışmış, resmî dilekçe için üslup tutarsız. Yer tutucular doğru."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "f",
+   "kor_kod": "Y045",
+   "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması hakkında.\n\n[TARİH]\n\nOturduğum [ADRES] adresindeki sokakta bulunan sokak lambası üç haftadır yanmamaktadır. Bu yüzden akşamları yol karanlık kalmakta, karanlık da yayalar için tehlike oluşturmaktadır.\n\nSözü edilen sokak lambasının en kısa sürede onarılmasını saygılarımla arz ve talep ederim.\n\n[AD SOYAD]\n[İMZA]\n\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 4.333,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.417
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'Oturduğum [ADRES] adresindeki sokakta bulunan sokak lambası' tekrarlı ve ağır; yer tutucular tam.",
+    "Yer tutucular ve resmî ton tam. \"Konu: ... hakkında.\" satırı noktayla bitiyor; \"arz ve talep ederim\" kalıplaşmış ama uygun.",
+    "\"Konu: ... hakkında.\" sonundaki nokta ve tarihin konudan sonra gelmesi biçimsel küçük kusur. Akış ve içerik iyi: \"karanlık da yayalar için tehlike oluşturmaktadır\"."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "g",
+   "kor_kod": "Y046",
+   "metin": "Tarayıcı, bir siteyi her açışınızda logo, görsel ve yazı tipi gibi parçaları internetten baştan indirmek yerine bunların bir kısmını cihazınıza kaydeder, bu saklama alanına önbellek denir. Sayfalar böylece daha hızlı açılır ve internet kotanız daha az harcanır. Ne var ki site yenilendiğinde tarayıcı bazen eski kopyayı göstermeyi sürdürür, siz de ekranda eksik, bozuk ya da güncellenmemiş bir sayfa görürsünüz. \"Önbelleği temizleyin\" önerisi tam bunun içindir. Kayıtlı eski kopyalar silinir, sayfa yeniden en güncel hâliyle indirilir. Yalnız önbelleği seçtiğiniz sürece şifreleriniz silinmez, tek bedeli sitelerin ilk girişte biraz yavaş açılmasıdır.",
+   "puan": {
+    "imla_noktalama": 4.333,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 3.667,
+    "ortalama": 3.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.25,
+    4,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "6 cümle olduğu için 4-5 sınırı aşılmış. \"Yalnız önbelleği seçtiğiniz sürece şifreleriniz silinmez, tek bedeli...\" hem kasıntı hem virgülle birleşmiş.",
+    "Altı cümle, 4-5 sınırını aşıyor. \"Yalnız önbelleği seçtiğiniz sürece şifreleriniz silinmez\" biraz tuhaf; içerik doğru.",
+    "Altı cümle var; istenen 4-5 sınırı aşılmış. \"şifreleriniz silinmez, tek bedeli\" cümlesi virgülle yapışık ve hantal."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "g",
+   "kor_kod": "Y047",
+   "metin": "Bir internet sitesini açtığınızda tarayıcınız, sayfadaki görseller ve sayfa düzeni dosyaları gibi sık değişmeyen parçaları cihazınızda geçici olarak saklar; bu saklama alanına önbellek denir. Aynı siteye tekrar girdiğinizde tarayıcı bu dosyaları internetten baştan indirmek yerine doğrudan cihazınızdan okur, böylece sayfalar beklemeden açılır. Ne var ki site güncellendiğinde tarayıcı bazen yenisini getirmek yerine sakladığı eski kopyayı göstermekte ısrar edebilir; kimi zaman da bozuk kaydedilmiş bir dosya sayfanın hatalı çalışmasına yol açar. Bu yüzden sorun yaşandığında sizden \"Önbelleği temizleyin\" diye istenir. Temizleme işlemi cihazdaki bu eski kayıtları siler ve tarayıcıyı sitenin güncel dosyalarını sıfırdan indirmeye zorlar.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; 5 cümle, teknik olarak doğru, 'bozuk kaydedilmiş' hafif takılma ama önemsiz.",
+    "5 cümle, teknik olarak doğru. \"bozuk kaydedilmiş bir dosya\" ve \"sizden ... diye istenir\" biraz kasıntı.",
+    "Kusur yok. Beş cümle, sade ve teknik olarak doğru; neden-sonuç akışı iyi."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "f",
+   "kor_kod": "Y048",
+   "metin": "[BELEDİYE ADI] BAŞKANLIĞINA\n\nİkamet ettiğim [ADRES] adresindeki sokak lambası üç haftadır yanmamaktadır. Akşam saatlerinde yolun karanlıkta kalması yayalar için tehlike oluşturmaktadır.\n\nArızalı sokak lambasının ivedilikle onarılması hususunda gereğinin yapılmasını saygılarımla arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.75,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Tüm yer tutucular var, dilekçe kalıbı doğru. \"hususunda gereğinin yapılmasını\" ağır bir resmî kalıp.",
+    "Yer tutucular ve resmî yapı tam; akıcı. \"hususunda gereğinin yapılmasını\" kalıbı biraz ağır.",
+    "\"ivedilikle onarılması hususunda gereğinin yapılmasını\" ağır, bürokratik bir yığılma. Yer tutucular ve içerik tam."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "b",
+   "kor_kod": "Y049",
+   "metin": "Trafik çok yoğun, bu akşam yemeğe yarım saat kadar gecikeceğim. Masayı tutun, siz sipariş vermeye başlayın, beni beklemeyin.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; doğal, kısa, istenenlerin hepsi var.",
+    "Kusur yok; \"Masayı tutun, siz sipariş vermeye başlayın, beni beklemeyin\" doğal ve istenen her şeyi kapsıyor.",
+    "Doğal ve samimi, tüm istekler var. \"siz sipariş vermeye başlayın, beni beklemeyin\" biraz sert ve kuru."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "d",
+   "kor_kod": "Y050",
+   "metin": "500 ml kapasiteli bu paslanmaz çelik termos, sıcak içeceklerinizi 12 saat, soğuk içeceklerinizi ise 24 saat korur. Ürün, bulaşık makinesinde yıkanabilir.",
+   "puan": {
+    "imla_noktalama": 4.667,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"Ürün, bulaşık makinesinde yıkanabilir\" cümlesinde özneden sonra gereksiz virgül var; bilgiler eksiksiz ve uydurma yok.",
+    "Bilgiler tam, uydurma yok. \"Ürün, bulaşık makinesinde yıkanabilir.\" düz ve kuru.",
+    "Kusur yok; iki cümle, verilen bilgilerle sınırlı."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "c",
+   "kor_kod": "Y051",
+   "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini sağladığı için önemli.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 4.667,
+    "akicilik": 4.333,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; calque temizlenmiş, anlam korunmuş.",
+    "\"yönetmesini sağladığı için önemli\" doğal ama \"önemli bir rol\" zayıflamış; yine de anlam büyük oranda korunmuş.",
+    "Anlam korunmuş ve doğal. Cümle \"... sağladığı için önemli.\" diye kısa ve biraz ani bitiyor."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "h",
+   "kor_kod": "Y052",
+   "metin": "Katılımcılara uygulanan anketlerin sonuçları analiz edildiğinde, egzersiz sıklığının artırılmasının uyku kalitesi üzerinde olumlu bir etkisi olduğu belirlenmiştir. Bu etkinin yaş grupları arasında farklılık gösterdiği de gözlenmiştir; bu bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: belirlenmiştir, gözlenmiştir"
+   ],
+   "gerekceler": [
+    "Anlam ve kesinlik derecesi korunmuş; \"Bu etkinin ... gözlenmiştir; bu bulgu\" ardışık \"bu\" tekrarı hafif ağırlık katıyor.",
+    "Kusur yok; \"olumlu bir etkisi olduğu belirlenmiştir\" doğal, kesinlik korunmuş.",
+    "Anlam ve kesinlik korunmuş. \"üzerinde olumlu bir etkisi olduğu\" ağır kalıp, \"bu etkinin ... bu bulgu\" tekrarlı."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "c",
+   "kor_kod": "Y053",
+   "metin": "Bu yeni özellik sayesinde kullanıcılar verilerini daha etkili yönetebiliyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3.333,
+    "akicilik": 5,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Doğal; 'önemli rol' ve 'kendi' düşmüş.",
+    "Doğal ama \"önemli bir rol\" ve \"kendi\" düşmüş; \"verilerini daha etkili yönetebiliyor\" anlamı eksiltiyor.",
+    "Akıcı ve doğal, fakat \"önemli bir rol\" ile \"kendi\" düşmüş: \"kullanıcılar verilerini daha etkili yönetebiliyor\"."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "b",
+   "kor_kod": "Y054",
+   "metin": "Selam, trafik çok yoğun olduğu için bu akşamki yemeğe yaklaşık 30 dakika gecikeceğim. Siz masayı tutun, siparişe de başlayın lütfen; ben gelir gelmez katılırım.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.75,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"siparişe de başlayın lütfen; ben gelir gelmez katılırım\" WhatsApp için biraz resmî, noktalı virgül mesaj havasına uymuyor.",
+    "Samimi ve tek mesaj. \"ben gelir gelmez katılırım\" biraz resmî.",
+    "\"lütfen\" ve noktalı virgül samimi bir WhatsApp mesajına göre fazla resmî, \"ben gelir gelmez katılırım\" biraz kitabî."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "d",
+   "kor_kod": "Y055",
+   "metin": "500 ml hacimli bu paslanmaz çelik termos, sıcak içeceklerinizi 12 saat sıcak, soğuk içeceklerinizi 24 saat soğuk tutar. Bulaşık makinesinde yıkanabildiği için temizliği de kolaydır.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 4.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'12 saat sıcak, ... 24 saat soğuk tutar' yinelemeli ama okunur; bilgiler tam.",
+    "Kusur yok; bilgiler eksiksiz, \"temizliği de kolaydır\" verilen bilgiden makul çıkarım.",
+    "Kusur yok; \"12 saat sıcak, ... 24 saat soğuk tutar\" doğal, bilgiler tam."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "h",
+   "kor_kod": "Y056",
+   "metin": "Katılımcılara uygulanan anketlerin analizinde, egzersiz sıklığının artırılmasının uyku kalitesini olumlu yönde etkilediği tespit edilmiştir. Bu etkinin yaş grupları arasında farklılaştığı da gözlenmiş, bulgu literatürle uyumlu bulunmuştur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.75,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: edilmiştir, bulunmuştur"
+   ],
+   "gerekceler": [
+    "Kusur yok; \"bulgu literatürle uyumlu bulunmuştur\" akademik ve doğal, kesinlik derecesi korunmuş.",
+    "Doğal akademik dil, anlam korunmuş. Sondaki \"bulgu literatürle uyumlu bulunmuştur\" biraz hantal.",
+    "\"olumlu yönde etkilediği\" ve \"gözlenmiş, bulgu ... bulunmuştur\" hafif kalıp ve eliptik. Anlam korunmuş."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "c",
+   "kor_kod": "Y057",
+   "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili bir şekilde yönetebilmesinde önemli bir rol oynuyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 3.333,
+    "ortalama": 3.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.5,
+    3.25,
+    3.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'etkili bir şekilde ... önemli bir rol oynuyor' kalıpları aynen kalmış; çeviri kokusu giderilmemiş.",
+    "Çeviri kokusu aynen duruyor: \"daha etkili bir şekilde yönetebilmesinde önemli bir rol oynuyor\"; görev doğallaştırmaktı.",
+    "Özgün kalıplar neredeyse aynen kalmış: \"daha etkili bir şekilde\", \"önemli bir rol oynuyor\". Cümle yeniden yazılmamış."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "h",
+   "kor_kod": "Y058",
+   "metin": "Katılımcılara uygulanan anketlerin analizi sonucunda, egzersiz sıklığını artırmanın uyku kalitesi üzerinde olumlu bir etkiye sahip olduğu tespit edilmiştir. Ayrıca bu durumun yaş grupları arasında farklılık gösterdiği gözlemlenmiş olup elde edilen bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 4.333,
+    "dogallik": 3,
+    "gorev_uyumu": 4.667,
+    "akicilik": 3,
+    "ortalama": 3.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.75,
+    4,
+    3.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: edilmiştir"
+   ],
+   "gerekceler": [
+    "\"etkiye sahip olduğu\", \"gözlemlenmiş olup elde edilen bulgu\" kalıpları ağır; \"olup\" öncesi/sonrası noktalama zayıf.",
+    "\"olumlu bir etkiye sahip olduğu\" ve \"gözlemlenmiş olup elde edilen bulgu\" çeviri kokulu, kalıp yığını. İkinci cümle ağır.",
+    "\"etkiye sahip olduğu\" ve \"gözlemlenmiş olup elde edilen bulgu\" çeviri kokulu ağır yapılar; \"olup\" öncesi virgül de eksik."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "g",
+   "kor_kod": "Y059",
+   "metin": "Önbellek (cache), tarayıcınızın daha önce açtığınız web sitelerinden aldığı resim, yazı tipi ve sayfa parçaları gibi dosyaları bilgisayarınızda geçici olarak sakladığı bir alandır. Böylece aynı siteyi tekrar açtığınızda bu dosyalar baştan indirilmez, sayfa daha hızlı yüklenir. Ancak site güncellendiği hâlde tarayıcı eski kopyaları kullanmaya devam ederse, sayfa bozuk görünebilir ya da eski içerik karşınıza çıkabilir. 'Önbelleği temizleyin' önerisi, bu eski kopyaların silinmesi ve tarayıcının sayfayı sıfırdan, güncel hâliyle indirmesi için yapılır. Önbelleği temizlemek kişisel verilerinizi ya da şifrelerinizi silmez, yalnızca siteler ilk girişte biraz daha yavaş açılabilir.",
+   "puan": {
+    "imla_noktalama": 4.333,
+    "dogallik": 4.333,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Tek tırnak 'Önbelleği temizleyin' yerine çift tırnak gerekir; 'önerisi ... yapılır' edilgen ağır.",
+    "5 cümle, teknik olarak doğru; \"önerisi, bu eski kopyaların silinmesi ve ... indirmesi için yapılır\" biraz edilgen ve dolambaçlı.",
+    "Doğal, 5 cümle ve doğru. Küçük kusur: 'Önbelleği temizleyin' tek tırnakla yazılmış."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "h",
+   "kor_kod": "Y060",
+   "metin": "Katılımcılara uygulanan anketin sonuçları analiz edildiğinde egzersiz sıklığının artırılmasının uyku kalitesini olumlu yönde etkilediği belirlenmiştir. Bu etkinin yaş gruplarına göre farklılaştığı da gözlenmiştir; bu bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 4.667,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: belirlenmiştir, gözlenmiştir"
+   ],
+   "gerekceler": [
+    "\"analiz edildiğinde egzersiz sıklığının\" uzun yan cümleden sonra virgül eksik; içerik ve kesinlik korunmuş.",
+    "Kusur yok; kesinlik derecesi ve bilgiler korunmuş, \"-miştir\" uyarısı yanlış alarm.",
+    "Akıcı ve kesinlik korunmuş. \"olumlu yönde etkilediği\" hafif kalıp."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "d",
+   "kor_kod": "Y061",
+   "metin": "500 ml kapasiteli bu paslanmaz çelik termos; sıcak içecekleri 12 saat, soğuk içecekleri ise 24 saat boyunca korur. Ürün bulaşık makinesinde yıkanabilir.",
+   "puan": {
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "ortalama": 4
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    4,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'çelik termos; sıcak içecekleri' öznenin ardından gereksiz noktalı virgül.",
+    "\"bu paslanmaz çelik termos; sıcak içecekleri\" ifadesinde özneyi yüklemden ayıran hatalı noktalı virgül var.",
+    "\"bu paslanmaz çelik termos; sıcak içecekleri\" özneden sonra yersiz noktalı virgül. Bilgiler eksiksiz."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "d",
+   "kor_kod": "Y062",
+   "metin": "500 ml kapasiteli paslanmaz çelik termos, içeceğinizi 12 saat sıcak, 24 saat soğuk tutar. Bulaşık makinesinde yıkanabilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; \"12 saat sıcak, 24 saat soğuk tutar\" kısa, doğru ve verilen bilgiye bağlı.",
+    "Kusur yok; \"12 saat sıcak, 24 saat soğuk tutar\" kısa ve doğal.",
+    "Kusur yok; kısa, bilgiler tam, uydurma yok."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "e",
+   "kor_kod": "Y063",
+   "metin": "Sağlıklı bir yaşam için düzenli egzersiz şart. Egzersiz, fiziksel sağlığı iyileştirdiği gibi zihinsel sağlığı da destekler. Yürüyüş, yüzme ve bisiklet gibi aktiviteler hem kolay erişilebilen hem de etkili ve sürdürülebilir seçeneklerdir. Uzmanlar haftada en az 150 dakika orta yoğunlukta egzersiz öneriyor. Kısacası egzersizi hayatımızın vazgeçilmez bir parçası hâline getirmek gerekir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[7, 9, 15, 10, 9]"
+   ],
+   "gerekceler": [
+    "Kusur yok; sade, doğal ve bilgiler tam.",
+    "Büyük oranda doğal; \"Kısacası egzersizi ... hâline getirmek gerekir\" hâlâ özet kalıbı, \"hem ... hem de\" yığılması var.",
+    "Kusur yok; bilgiler korunmuş, yapay kalıplar temizlenmiş. Ritim biraz düzgün: \"Kısacası egzersizi ... getirmek gerekir.\""
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "b",
+   "kor_kod": "Y064",
+   "metin": "Selam! Trafik felaket, yemeğe yarım saat kadar geç kalacağım galiba 😕 Siz masayı tutun, siparişe de başlayın, ben gelince yetişirim. Kusura bakmayın!",
+   "puan": {
+    "imla_noktalama": 4,
+    "dogallik": 4.667,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4.167
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"geç kalacağım galiba 😕 Siz\" emojiden sonra cümle ayrımı yok ve \"galiba\" kesin gecikmeyi belirsizleştiriyor; ekstra özür eklenmiş.",
+    "Samimi ve doğal; ancak \"geç kalacağım galiba 😕 Siz\" cümle sonu işaretsiz. \"galiba\" kesinliği azaltmış, \"Kusura bakmayın!\" ek.",
+    "\"geç kalacağım galiba\" ile \"yarım saat kadar\" gereksiz çift belirsizlik; \"galiba 😕 Siz\" arasında noktalama yok, \"Kusura bakmayın!\" eklenmiş."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "e",
+   "kor_kod": "Y065",
+   "metin": "Düzenli egzersiz yapmak, sağlıklı bir yaşam için büyük önem taşır. Egzersiz, fiziksel sağlığı iyileştirmenin yanı sıra zihinsel sağlığa da katkı sağlar. Yürüyüş, yüzme ve bisiklet gibi aktiviteler ise etkili, erişilebilir ve sürdürülebilir seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını önerir. Bu nedenle egzersiz, hayatımızın vazgeçilmez bir parçası olmalıdır.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 2.333,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "ortalama": 3.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.5,
+    3.5,
+    3.75
+   ],
+   "denetle_bulgu_sayisi": 2,
+   "denetle_bulgular": [
+    "AI-Tier1: büyük önem taşır",
+    "Ritim-İpucu: cümle boyları=[10, 11, 12, 11, 8]"
+   ],
+   "gerekceler": [
+    "'büyük önem taşır', 'katkı sağlar', 'Bu nedenle' YZ kalıpları kaynağa yakın bırakılmış; görev tam yerine getirilmemiş.",
+    "\"büyük önem taşır\", \"katkı sağlar\", \"Bu nedenle ... vazgeçilmez bir parçası olmalıdır\" kalıpları korunmuş; görev bunları temizlemekti.",
+    "Kaçınılması istenen kalıplar kalmış: \"büyük önem taşır\", \"katkı sağlar\", \"Bu nedenle egzersiz ... olmalıdır\". Bu nedenle bağı da yersiz."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "g",
+   "kor_kod": "Y066",
+   "metin": "Tarayıcı önbelleği, ziyaret ettiğiniz sitelerdeki görsel ve bazı dosyaların cihazınızda geçici olarak saklandığı alandır. Aynı siteyi yeniden açtığınızda tarayıcı bu dosyaları tekrar indirmek yerine sakladığı kopyaları kullanarak sayfayı daha hızlı yükleyebilir. Bazen saklanan dosyalar güncelliğini yitirir veya bozulur ve sayfa yanlış görünebilir ya da düzgün çalışmayabilir. Önbelleği temizlemek bu kopyaları siler, böylece tarayıcı gereken dosyaları yeniden indirir. Bu işlemden sonra ilk açılış biraz daha uzun sürebilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[14, 17, 15, 11, 9]"
+   ],
+   "gerekceler": [
+    "5 cümle, sade ve doğru; cümleler ritim bakımından birbirine benziyor.",
+    "5 cümle, doğru ve sade. \"yanlış görünebilir ya da düzgün çalışmayabilir\" biraz genel.",
+    "Kusur yok; beş cümle, sade ve teknik olarak doğru."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "a",
+   "kor_kod": "Y067",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru.",
+    "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor.",
+    "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "a",
+   "kor_kod": "Y068",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor.",
+    "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor.",
+    "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "TEMEL",
+   "madde": "a",
+   "kor_kod": "Y069",
+   "metin": "Sen de yarınki toplantıya gelecek misin yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin çünkü ben de bilmiyorum ki kimler gelecek?",
+   "puan": {
+    "imla_noktalama": 2.333,
+    "dogallik": 3,
+    "gorev_uyumu": 3.333,
+    "akicilik": 2.333,
+    "ortalama": 2.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    2.5,
+    3.25,
+    2.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Doğru virgüller silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Cümle sonda \"?\" ile bitse de virgülsüz uzun yapı nefessiz okunuyor.",
+    "Yazım düzeltmeleri ve \"TDK'ye\" doğru, sondaki \"?\" var; ama doğru olan iki virgül silinmiş (\"misin yoksa\", \"gideceksin çünkü\"). Bu yüzden uzun cümle tek solukta okunuyor.",
+    "Doğru olan iki virgül silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Virgülsüz uzun cümle okunurluğu düşürüyor ve yapıyı bozuyor."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "d",
+   "kor_kod": "Y070",
+   "metin": "500 ml kapasiteli paslanmaz çelik termos, sıcak içecekleri 12 saat, soğuk içecekleri 24 saat korur. Bulaşık makinesinde yıkanabilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; kısa, doğru, uydurma özellik yok.",
+    "Bilgiler doğru; sönük ve kısa: \"Bulaşık makinesinde yıkanabilir.\"",
+    "Kusur yok; verilen bilgiyle sınırlı, iki kısa cümle."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "e",
+   "kor_kod": "Y071",
+   "metin": "Düzenli egzersiz sağlıklı yaşam için önemlidir. Fiziksel sağlığı iyileştirir, zihinsel sağlığa da katkıda bulunur. Yürüyüş, yüzme ve bisiklet etkili, erişilebilir ve sürdürülebilir seçeneklerdir. Haftada en az 150 dakika orta yoğunlukta egzersiz önerilir. Egzersizi günlük yaşamın düzenli bir parçası hâline getirmek gerekir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 3.667,
+    "ortalama": 3.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    3.75,
+    4
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[6, 8, 9, 9, 9]"
+   ],
+   "gerekceler": [
+    "'Uzmanlara göre' atfı düşmüş ('Haftada ... egzersiz önerilir'), 'vazgeçilmez' de kaybolmuş; cümleler kısa ve kesik.",
+    "\"Uzmanlara göre\" kaynağı düşmüş (\"Haftada en az 150 dakika ... önerilir\"); kısa cümleler monoton.",
+    "\"Uzmanlara göre\" atfı silinmiş: \"Haftada en az 150 dakika ... önerilir.\" Ayrıca \"vazgeçilmez\" yerine \"düzenli bir parçası\" ile vurgu azalmış."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "g",
+   "kor_kod": "Y072",
+   "metin": "Bir siteyi ilk kez açtığınızda tarayıcınız logo, resim, yazı tipi gibi dosyaların bir kopyasını bilgisayarınıza ya da telefonunuza kaydeder. Bu deponun adı önbellektir (İngilizcesi cache). Aynı siteye yeniden girdiğinizde tarayıcı bu dosyaları internetten baştan indirmez, elindeki kopyadan alır. Böylece sayfa daha hızlı açılır, daha az veri harcanır. Ne var ki site güncellendiğinde tarayıcı bazen eski kopyayı kullanmayı sürdürür. O zaman sayfa bozuk görünebilir, yenilikler görünmeyebilir ya da bir düğme çalışmayabilir. Önbelleği temizlemek bu eski kopyaları siler ve tarayıcıyı dosyaların güncel hâlini siteden yeniden indirmeye zorlar; bir sitede tuhaflık görüldüğünde ilk önerilen çözümlerden birinin bu olması bundandır.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 2.333,
+    "akicilik": 4.333,
+    "ortalama": 4.167
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Metin 7 cümle, istenen 4-5 sınırının çok üstünde; içerik ve dil çok iyi.",
+    "Doğal ve canlı anlatım, ancak 7 cümle; istenen 4-5 sınırı aşılmış. Son cümle uzun ve noktalı virgüllü.",
+    "Yedi cümle var; istenen 4-5 cümle çok aşılmış. Dil doğal ve içerik doğru."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "TEMEL",
+   "madde": "g",
+   "kor_kod": "Y073",
+   "metin": "Web tarayıcınız, girdiğiniz sitelerdeki resim, yazı tipi ve sayfa düzeni gibi bazı dosyaların bir kopyasını bilgisayarınızda saklar; buna önbellek denir. Böylece aynı siteyi yeniden açtığınızda bu dosyaların tekrar indirilmesi gerekmez ve sayfa daha hızlı açılır. Ancak site güncellendiğinde tarayıcı bazen yeni dosyalar yerine elindeki eski kopyaları kullanmaya devam edebilir. Bu da sayfanın bozuk görünmesine, bazı düğmelerin çalışmamasına ya da yapılan değişikliklerin görünmemesine yol açabilir. Önbelleği temizlediğinizde bu eski kopyalar silinir ve tarayıcı her şeyi siteden yeniden indirir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[20, 15, 14, 15, 13]"
+   ],
+   "gerekceler": [
+    "Kusur yok; 5 cümle, sade ve teknik olarak doğru.",
+    "5 cümle, sade ve doğru; \"Ancak ... Bu da ... yol açabilir\" ritmi hafif tekdüze.",
+    "5 cümle, sade ve doğru. \"buna önbellek denir\" ve sonrası akıcı, biraz kalıp."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "d",
+   "kor_kod": "Y074",
+   "metin": "500 ml hacmindeki paslanmaz çelik termos, sıcak içecekleri 12 saat, soğuk içecekleri ise 24 saat boyunca korur. Bulaşık makinesinde yıkanabildiği için temizliği de zahmetsizdir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.75,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"temizliği de zahmetsizdir\" biraz reklam dili; bilgiler doğru ve eksiksiz.",
+    "Bilgiler eksiksiz. \"temizliği de zahmetsizdir\" hafif süs.",
+    "Kusur yok; \"temizliği de zahmetsizdir\" makul bir çıkarım."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "d",
+   "kor_kod": "Y075",
+   "metin": "Paslanmaz çelikten yapılan 500 ml'lik bu termos, sıcak içeceğinizi 12 saat sıcak, soğuk içeceğinizi 24 saat soğuk tutar. Bulaşık makinesinde yıkanabildiği için temizliği de kolaydır.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 4.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'12 saat sıcak, ... 24 saat soğuk tutar' yinelemeli; 500 ml'lik doğru yazılmış, bilgiler tam.",
+    "Kusur yok; \"sıcak içeceğinizi 12 saat sıcak, soğuk içeceğinizi 24 saat soğuk tutar\" net ve doğru.",
+    "Kusur yok; \"içeceğinizi 12 saat sıcak, 24 saat soğuk\" doğal ve bilgiler tam."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "g",
+   "kor_kod": "Y076",
+   "metin": "Önbellek (cache), tarayıcının ziyaret ettiğiniz sitelerdeki görsel ve bazı dosyaların kopyalarını cihazınızda sakladığı alandır. Tarayıcı, aynı siteye tekrar girdiğinizde bu dosyaları yeniden indirmek yerine sakladığı kopyaları kullanarak sayfayı daha hızlı açabilir. Bazen bu kopyalar güncelliğini yitirir veya bozulur; bu da sayfanın eski ya da hatalı görünmesine yol açabilir. Bu nedenle bazı sorunlarda önbelleği temizlemeniz istenir. Temizleme sonrasında tarayıcı ihtiyaç duyduğu dosyaları siteden yeniden indirir; bu yüzden ilk açılış biraz daha yavaş olabilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.667
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[14, 17, 17, 7, 17]"
+   ],
+   "gerekceler": [
+    "5 cümle ve doğru; \"Bu nedenle bazı sorunlarda önbelleği temizlemeniz istenir\" edilgen ve hafif kalıp.",
+    "5 cümle, teknik olarak doğru. \"Bu nedenle bazı sorunlarda önbelleği temizlemeniz istenir\" edilgen ve kuru.",
+    "Kusur yok; beş cümle, temkinli ve doğru anlatım."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "g",
+   "kor_kod": "Y077",
+   "metin": "Web tarayıcısındaki önbellek (cache), ziyaret ettiğiniz sitelerdeki görseller, yazı tipleri ve sayfa parçaları gibi dosyaların cihazınızda geçici olarak saklandığı alandır. Bu sayede aynı siteye tekrar girdiğinizde tarayıcı bu dosyaları internetten yeniden indirmek yerine doğrudan cihazınızdan açar ve sayfalar çok daha hızlı yüklenir. Ancak bir web sitesi güncellendiğinde, tarayıcı bazen sitenin yeni hâlini göstermek yerine hafızasında tuttuğu eski dosyaları kullanmaya devam edebilir. Bu durum da sayfaların bozuk görünmesine, eski bilgilerin ekranda kalmasına veya bazı özelliklerin düzgün çalışmamasına yol açar. İşte bu yüzden \"önbelleği temizleyin\" denildiğinde amaç, saklanan eski dosyaları silerek tarayıcıyı sitenin en güncel sürümünü yeniden indirmeye yönlendirmektir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 3.667,
+    "ortalama": 4.417
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[20, 22, 19, 17, 19]"
+   ],
+   "gerekceler": [
+    "Uzun ve tekdüze cümleler; 'amaç ... yönlendirmektir' ağır duruyor.",
+    "Cümleler uzun ve aynı boyda; \"amaç, ... yeniden indirmeye yönlendirmektir\" ağır ve resmî.",
+    "5 cümle, doğru ve anlaşılır. \"İşte bu yüzden ... amaç, ... yönlendirmektir\" biraz kitabi ve uzun."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "g",
+   "kor_kod": "Y078",
+   "metin": "Tarayıcı önbelleği; ziyaret ettiğiniz internet sitelerindeki resim, logo ve sayfa tasarımı gibi parçaları bilgisayarınızda saklayan geçici bir hafıza alanıdır. Aynı siteye tekrar girdiğinizde bu dosyalar internetten yeniden indirilmez, cihazınızdan hızla yüklenerek sayfanın çok daha çabuk açılmasını sağlar. Ancak bir internet sitesi güncellendiğinde tarayıcınız yeni verileri almak yerine elindeki eski kopyaları göstermeye devam edebilir. Bu durum sayfaların bozuk görünmesine veya sitedeki yeniliklerin ekrana yansımamasına yol açtığında sizden önbelleği temizlemeniz istenir. Önbelleği sildiğinizde tarayıcınız sitenin en güncel hâlini sıfırdan indirir ve sayfa normale döner.",
+   "puan": {
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 3.333,
+    "ortalama": 3.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.75,
+    3.75,
+    4
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[19, 18, 16, 16, 13]"
+   ],
+   "gerekceler": [
+    "\"Tarayıcı önbelleği; ziyaret ettiğiniz...\" öznenin ardında hatalı noktalı virgül var; \"hızla yüklenerek ... sağlar\" kuruluşu bozuk.",
+    "\"Tarayıcı önbelleği; ziyaret ettiğiniz...\" özneden sonra yersiz noktalı virgül. \"cihazınızdan hızla yüklenerek sayfanın çok daha çabuk açılmasını sağlar\" özne karışık.",
+    "\"Tarayıcı önbelleği; ziyaret ettiğiniz ... alanıdır\" cümlesinde noktalı virgül yanlış kullanılmış. \"cihazınızdan hızla yüklenerek ... sağlar\" öznesi dolambaçlı."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "e",
+   "kor_kod": "Y079",
+   "metin": "Düzenli egzersiz, sağlıklı bir yaşam için çok önemlidir. Egzersiz yalnızca bedensel sağlığı iyileştirmekle kalmaz, ruh sağlığına da yardımcı olur. Yürüyüş, yüzme ve bisiklet gibi etkinlikler hem etkili hem kolay ulaşılabilir hem de uzun süre devam ettirilebilir seçeneklerdir. Uzmanlar, haftada en az 150 dakika orta yoğunlukta egzersiz yapılmasını öneriyor. Kısacası egzersiz, hayatımızın vazgeçilmez bir parçası olmalı.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 4.667,
+    "akicilik": 4.333,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.5,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; sade, akıcı, tüm bilgiler korunmuş.",
+    "\"hem etkili hem kolay ulaşılabilir hem de uzun süre devam ettirilebilir\" yığılması var ve son cümle \"olmalı\" ile kayıt değiştiriyor.",
+    "\"zihinsel sağlık\" yerine \"ruh sağlığı\" denmiş, küçük kayma. \"hem etkili hem kolay ulaşılabilir hem de uzun süre devam ettirilebilir\" üçlü hem yığını."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "c",
+   "kor_kod": "Y080",
+   "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini kolaylaştırıyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3.667,
+    "akicilik": 5,
+    "ortalama": 4.667
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Çok doğal; \"önemli bir rol\" düşmüş ve \"kolaylaştırıyor\" \"olanak sağlıyor\"dan farklı.",
+    "Akıcı ama \"önemli bir rol\" düşmüş ve \"olanak sağlamak\" \"kolaylaştırıyor\" olmuş: anlam hafifçe değişmiş.",
+    "Doğal ve akıcı; \"önemli bir rol\" anlamı \"kolaylaştırıyor\" ile yumuşamış."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "SKILL",
+   "madde": "h",
+   "kor_kod": "Y081",
+   "metin": "Katılımcılara uygulanan anketlerin analizi, egzersiz sıklığındaki artışın uyku kalitesini olumlu etkilediğini ve bu etkinin yaş gruplarına göre farklılaştığını göstermiştir. Bu bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4.667,
+    "akicilik": 5,
+    "ortalama": 4.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: göstermiştir"
+   ],
+   "gerekceler": [
+    "Kusur yok; kesinlik ve bilgi korunmuş.",
+    "Kusur yok; anlam ve kesinlik korunmuş, iki cümle akıcı.",
+    "Doğal akademik dil. \"gözlemlenmiştir\" yerine analizin \"göstermiştir\" demesiyle gözlem/tespit ayrımı biraz kaymış."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "d",
+   "kor_kod": "Y082",
+   "metin": "500 ml'lik paslanmaz çelik termos, sıcak içecekleri 12 saat, soğuk içecekleri 24 saat korur. Bulaşık makinesinde yıkanabilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; \"500 ml'lik\" doğru yazılmış, bilgiler eksiksiz.",
+    "Bilgiler doğru ve eksiksiz; ancak sönük, kısa cümleler: \"Bulaşık makinesinde yıkanabilir.\"",
+    "Kusur yok; iki kısa cümle."
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "c",
+   "kor_kod": "Y083",
+   "metin": "Bu yeni özellik, kullanıcıların verilerini daha etkili yönetmesini sağlar.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3.333,
+    "akicilik": 5,
+    "ortalama": 4.583
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Doğal; 'kendi' ve 'önemli rol' düşmüş.",
+    "Akıcı ama \"önemli bir rol\" ve \"kendi\" kaybolmuş; \"yönetmesini sağlar\" anlamı sadeleştirmiş.",
+    "Doğal ama \"önemli bir rol\" iddiası ve \"kendi\" düşmüş: \"yönetmesini sağlar\". Anlamdan eksilme var."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "h",
+   "kor_kod": "Y084",
+   "metin": "Katılımcılara uygulanan anketin sonuçları analiz edildiğinde, egzersiz sıklığındaki artışın uyku kalitesini olumlu etkilediği ve bu etkinin yaş grupları arasında farklılık gösterdiği saptanmıştır. Bu bulgu literatürle uyumludur.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Üslup: saptanmıştır"
+   ],
+   "gerekceler": [
+    "Kusur yok; \"saptanmıştır\" ile akademik kesinlik korunmuş, doğal akış.",
+    "Kusur yok; \"saptanmıştır\" akademik metinde uygun, kesinlik derecesi ve bilgiler korunmuş.",
+    "Kusur yok; anlam ve kesinlik korunmuş, iki cümleye düzgün bölünmüş."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "a",
+   "kor_kod": "Y085",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ya göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin, çünkü ben de bilmiyorum ki kimler gelecek?",
+   "puan": {
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]",
+    "Kusur yok. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]",
+    "Kusur yok. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]"
+   ]
+  },
+  {
+   "model": "Gemini 3.8 Flash (High)",
+   "kesin_kimlik": "gemini-3.8-flash-high",
+   "kosul": "SKILL",
+   "madde": "b",
+   "kor_kod": "Y086",
+   "metin": "Selam, trafik fena sıkıştı, bu akşamki yemeğe bir 30 dakika kadar gecikeceğim. Siz masayı tutun, beni hiç beklemeden siparişe başlayın lütfen.",
+   "puan": {
+    "imla_noktalama": 4.333,
+    "dogallik": 3,
+    "gorev_uyumu": 4.667,
+    "akicilik": 3.667,
+    "ortalama": 3.917
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    3.5,
+    4.25,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"bir 30 dakika kadar\" ifadesi Türkçede bozuk; \"yaklaşık\" ve \"hiç beklemeden\" ile ton biraz zorlama.",
+    "\"bir 30 dakika kadar gecikeceğim\" doğal Türkçe değil, \"bir\" yersiz. Geri kalanı samimi ve görev tam.",
+    "\"bir 30 dakika kadar\" doğal olmayan bir söyleyiş; \"trafik fena sıkıştı\" konuşma diline uygun."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "g",
+   "kor_kod": "Y087",
+   "metin": "Önbellek, tarayıcınızın ziyaret ettiğiniz sitelerden bazı dosyaları cihazınızda geçici olarak sakladığı alandır. Böylece aynı siteyi tekrar açtığınızda bazı içerikler yeniden indirilmeden kullanılabilir ve sayfa daha hızlı yüklenebilir. Bazen saklanan dosyalar eski veya hatalı olduğu için site düzgün görüntülenmeyebilir. Önbelleği temizlemek, tarayıcının bu dosyaları yeniden indirmesini sağlayarak sorunu çözebilir.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.667
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'bazı içerikler', 'bazı dosyaları' belirsiz; doğru ama ince.",
+    "Kusur yok; 4 cümle, sade ve doğru.",
+    "4 cümle, doğru ve sade; ama biraz yüzeysel ve edilgen: \"bazı içerikler yeniden indirilmeden kullanılabilir ve sayfa daha hızlı yüklenebilir\"."
+   ]
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "kesin_kimlik": "claude-opus-5-5",
+   "kosul": "SKILL",
+   "madde": "f",
+   "kor_kod": "Y088",
+   "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Sokak lambasının onarılması talebi\n\n[ADRES] adresinde oturmaktayım. Sokağımızdaki aydınlatma lambası üç haftadır yanmamaktadır. Bu nedenle yol akşam saatlerinde karanlık kalmakta ve yayalar için tehlike oluşturmaktadır.\n\nArızalı lambanın en kısa sürede onarılması için gereğinin yapılmasını saygılarımla arz ederim.\n\n[TARİH]\n\n[AD SOYAD]\nİmza\n\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.333,
+    "gorev_uyumu": 4.333,
+    "akicilik": 4.333,
+    "ortalama": 4.5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"aydınlatma lambası\" talepteki \"sokak lambası\"ndan sapıyor; resmî dil yoğun ama dilekçe için beklenen düzeyde.",
+    "Dilekçe biçimi ve yer tutucular tam. \"sokak lambası\" yerine \"aydınlatma lambası\" denmiş, küçük sözcük sapması.",
+    "Kusur yok; tutarlı resmî dil ve yer tutucular tam."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "f",
+   "kor_kod": "Y089",
+   "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nOturduğum sokaktaki sokak lambası üç haftadır yanmamaktadır. Bu nedenle yol akşamları karanlık kalmakta ve yayalar için tehlike oluşturmaktadır.\n\nSöz konusu lambanın onarılmasını arz ederim.\n\nTarih: [TARİH]\nAd Soyad: [AD SOYAD]\nAdres: [ADRES]",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4.333,
+    "akicilik": 4,
+    "ortalama": 4.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.25,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'Söz konusu lambanın onarılmasını arz ederim' kalıbı oturmamış; yer tutucular tam.",
+    "Konu satırı ve imza yok; \"Oturduğum sokaktaki sokak lambası\" tekrar var, \"onarılmasını arz ederim\" çok kısa.",
+    "Yer tutucular doğru ama çok kısa; \"Söz konusu lambanın onarılmasını arz ederim\" saygı kalıbından ve gereğinden yoksun, \"Konu\" satırı yok."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "TEMEL",
+   "madde": "b",
+   "kor_kod": "Y090",
+   "metin": "Selam, bu akşam yemeğe yaklaşık 30 dakika geç kalacağım, trafik çok yoğun. Masayı tutarsanız ve beni beklemeden siparişe başlarsanız çok sevinirim. Geliyorum, yakında oradayım!",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4.333,
+    "akicilik": 4,
+    "ortalama": 4.333
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"Masayı tutarsanız ... çok sevinirim\" talebi şarta bağlıyor, \"yakında oradayım\" 30 dakikalık gecikmeyle çelişiyor.",
+    "Samimi ve doğal; ancak istek \"Masayı tutarsanız ... çok sevinirim\" diye koşula çevrilerek yumuşamış. \"Geliyorum, yakında oradayım!\" ekleme sayılır.",
+    "\"Geliyorum, yakında oradayım!\" otuz dakikalık gecikmeyle çelişiyor; \"çok sevinirim\" biraz yapay."
+   ]
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "kesin_kimlik": "claude-sonnet-5-5",
+   "kosul": "SKILL",
+   "madde": "d",
+   "kor_kod": "Y091",
+   "metin": "Bu 500 ml'lik paslanmaz çelik termos, sıcak içeceği 12 saat, soğuk içeceği 24 saat boyunca korur. Kullandıktan sonra bulaşık makinesinde yıkayabilirsiniz.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.333,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    4.75,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; bilgiler tam, 'Kullandıktan sonra' zararsız.",
+    "Doğru ve yeterli; \"Kullandıktan sonra bulaşık makinesinde yıkayabilirsiniz\" dolgu gibi.",
+    "Bilgiler eksiksiz, özellik uydurulmamış. \"Kullandıktan sonra bulaşık makinesinde yıkayabilirsiniz\" hafif dolgu."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Sol",
+   "kesin_kimlik": "gpt-6.1-sol",
+   "kosul": "TEMEL",
+   "madde": "f",
+   "kor_kod": "Y092",
+   "metin": "[BELEDİYE ADI] BELEDİYE BAŞKANLIĞINA\n\nKonu: Yanmayan sokak lambasının onarılması talebi\n\n[ADRES] adresinde ikamet etmekteyim. Oturduğum sokaktaki sokak lambası üç haftadır yanmamaktadır. Bu nedenle akşamları yol karanlık kalmakta ve yayalar için tehlike oluşmaktadır.\n\nSöz konusu sokak lambasının onarılması için gereğinin yapılmasını arz ederim.\n\nTarih: [TARİH]\nAd Soyad: [AD SOYAD]\nAdres: [ADRES]\nİmza:",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "ortalama": 4.5
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.5,
+    4.5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 1,
+   "denetle_bulgular": [
+    "Ritim-İpucu: cümle boyları=[14, 7, 11, 10, 9]"
+   ],
+   "gerekceler": [
+    "Yer tutucular ve konu satırı tam; \"ikamet etmekteyim ... yanmamaktadır\" -maktadır yığılması resmî dilekçede kabul edilebilir.",
+    "Resmî dilekçe düzeni ve yer tutucular doğru, uydurma bilgi yok. \"Söz konusu sokak lambasının onarılması için gereğinin yapılmasını arz ederim\" kalıp ama tür gereği kabul edilir.",
+    "\"ikamet etmekteyim. Oturduğum sokaktaki\" anlamca tekrarlı ve \"gereğinin yapılmasını arz ederim\" ağır. Yer tutucular tam."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "TEMEL",
+   "madde": "b",
+   "kor_kod": "Y093",
+   "metin": "Trafik çok yoğun, bu akşamki yemeğe yaklaşık 30 dakika geç kalacağım. Siz masayı tutun, siparişe de başlayın.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4.667,
+    "gorev_uyumu": 5,
+    "akicilik": 4.667,
+    "ortalama": 4.833
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    5,
+    5,
+    4.5
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Kusur yok; kısa, doğal, tüm istekler var.",
+    "Kusur yok; kısa, doğal, tek mesaj ve istenenleri kapsıyor.",
+    "Kusur yok; bilgilerin hepsi var. Biraz kuru, selam ve samimi dokunuş yok: \"Siz masayı tutun, siparişe de başlayın.\""
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "TEMEL",
+   "madde": "c",
+   "kor_kod": "Y094",
+   "metin": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili yönetmesini sağlayarak önemli bir işlev üstleniyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4,
+    4,
+    4
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "\"sağlayarak önemli bir işlev üstleniyor\" kalıbı çeviri kokusunu büyük ölçüde koruyor.",
+    "\"önemli bir işlev üstleniyor\" İngilizce \"plays a role\" kalıbını taşıyor, tam doğal değil. Anlam korunmuş.",
+    "\"önemli bir işlev üstleniyor\" çeviri kokulu kalıp; cümle yapısı büyük ölçüde kaynakla aynı."
+   ]
+  },
+  {
+   "model": "Gemini 4 Hydrogen (High)",
+   "kesin_kimlik": "gemini-4-hydrogen-high",
+   "kosul": "SKILL",
+   "madde": "c",
+   "kor_kod": "Y095",
+   "metin": "Kullanıcıların verilerini daha etkili yönetebilmesinde bu yeni özellik önemli bir yer tutuyor.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "ortalama": 4.25
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.25,
+    4.25,
+    4.25
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "'önemli bir yer tutuyor' yerinde ama 'kendi' düşmüş; ters çevrilmiş yapı biraz sıkışık.",
+    "\"önemli bir yer tutuyor\" doğal sayılır ama \"kendi\" düşmüş ve yer değiştirmiş sıra biraz yapay.",
+    "\"bu yeni özellik önemli bir yer tutuyor\" doğal ve çeviri kokmuyor. Ancak \"kendi\" düşmüş, anlam çok az kaymış."
+   ]
+  },
+  {
+   "model": "GPT-6.1 Terra",
+   "kesin_kimlik": "gpt-6.1-terra",
+   "kosul": "SKILL",
+   "madde": "a",
+   "kor_kod": "Y096",
+   "metin": "Sen de yarınki toplantıya gelecek misin, yoksa raporu TDK'ye göre düzeltip saat 14.30'da Ayşe'ye gönderdikten sonra eve mi gideceksin? Çünkü ben de bilmiyorum ki kimler gelecek.",
+   "puan": {
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "ortalama": 4.75
+   },
+   "puanlayici_sayisi": 3,
+   "puanlayici_ortalamalari": [
+    4.75,
+    4.75,
+    4.75
+   ],
+   "denetle_bulgu_sayisi": 0,
+   "denetle_bulgular": [],
+   "gerekceler": [
+    "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor.",
+    "Tüm hatalar doğru düzeltilmiş, \"TDK'ye\" ve virgül doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor.",
+    "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru."
+   ]
+  }
+ ]
+}

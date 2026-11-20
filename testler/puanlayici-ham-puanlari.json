@@ -1,0 +1,2348 @@
+[
+ {
+  "puanlayici": 3,
+  "parca": 2,
+  "istenen": 48,
+  "puanlar": [
+   {
+    "kor_kod": "Y001",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; de/da, 'misin' ve 'ki' ayrı, TDK'ya, 14.30'da, Ayşe'ye doğru."
+   },
+   {
+    "kor_kod": "Y003",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "'büyük önem taşır' ve 'Bu doğrultuda' YZ kalıbı olarak kalmış; 'vazgeçilmez' yerine 'bir parçası hâline gelmelidir' ile anlam zayıflamış."
+   },
+   {
+    "kor_kod": "Y005",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; -mIştIr akademik metinde uygun, bulgu ve kesinlik korunmuş."
+   },
+   {
+    "kor_kod": "Y007",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "'tüm veriler internetten yeniden indirilmez' abartılı, 'teknik uyumsuzlukları gidermek' ve 'söylenir' ağır duruyor."
+   },
+   {
+    "kor_kod": "Y009",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal, ancak 'önemli bir rol' ve 'kendi' düşmüş; 'yardımcı olur' anlamı hafifletmiş."
+   },
+   {
+    "kor_kod": "Y011",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kısa, samimi, tek mesaj ve tüm istekler karşılanmış."
+   },
+   {
+    "kor_kod": "Y013",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; bilgiler eksiksiz, uydurma özellik yok, iki cümle."
+   },
+   {
+    "kor_kod": "Y015",
+    "imla_noktalama": 2,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "'TDK'ye' yanlış, 'misin yoksa' ve 'gideceksin çünkü' öncesindeki virgüller silinmiş, sonda gereksiz '?' var."
+   },
+   {
+    "kor_kod": "Y017",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tek ama belirgin hata: 'TDK'ye' (doğrusu TDK'ya); gerisi doğru."
+   },
+   {
+    "kor_kod": "Y019",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Akıcı ve doğal; 'Katılımcılara uygulanan' bilgisi düşmüş."
+   },
+   {
+    "kor_kod": "Y021",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "'kapasiteye sahip bu' kalıbı çeviri kokuyor; 'güvenle yıkanabilir' ve 'Pratik bir temizlik' kaynakta olmayan süs."
+   },
+   {
+    "kor_kod": "Y023",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "'temel taşlarından biridir' kalıp, 'uzun süre sürdürülebilir' gereksiz tekrar; genel olarak doğal."
+   },
+   {
+    "kor_kod": "Y025",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 3,
+    "gerekce": "'Bu yeni özellik önemli, çünkü ... onun sayesinde' kullanımı kaba ve takılıyor; anlam kısmen korunmuş."
+   },
+   {
+    "kor_kod": "Y027",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "'Lambanın onarılmasını arz ederim' bozuk kalıp, 'yanmıyor' ile resmî üslup tutarsız; yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y029",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; anlam ve kesinlik korunmuş, akıcı akademik Türkçe."
+   },
+   {
+    "kor_kod": "Y031",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "'önemli bir yere sahip' hâlâ 'sahip olmak' çevirisi; anlam korunmuş."
+   },
+   {
+    "kor_kod": "Y033",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "'TDK'ye' yanlış; cümle sonu '?' kaynaktaki noktayı değiştirmiş."
+   },
+   {
+    "kor_kod": "Y035",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "'TDK'ye' yanlış; 'gideceksin; çünkü' noktalı virgül ve sonda '?' gereksiz."
+   },
+   {
+    "kor_kod": "Y037",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "'egzersiz yapmak belirleyicidir' yapay duruyor; 'Hareket etmek' ve 'kalıcı' ifadeleri kaynağı kaydırmış."
+   },
+   {
+    "kor_kod": "Y039",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tek ama belirgin hata: 'TDK'ye'; noktalama ve de/ki yazımı doğru."
+   },
+   {
+    "kor_kod": "Y041",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "'ben gelince yetişirim' hafif mantık takılması dışında doğal ve samimi."
+   },
+   {
+    "kor_kod": "Y043",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "'TDK'ye' yanlış; geri kalanı doğru."
+   },
+   {
+    "kor_kod": "Y045",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "'Oturduğum [ADRES] adresindeki sokakta bulunan sokak lambası' tekrarlı ve ağır; yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y047",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; 5 cümle, teknik olarak doğru, 'bozuk kaydedilmiş' hafif takılma ama önemsiz."
+   },
+   {
+    "kor_kod": "Y049",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; doğal, kısa, istenenlerin hepsi var."
+   },
+   {
+    "kor_kod": "Y051",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; calque temizlenmiş, anlam korunmuş."
+   },
+   {
+    "kor_kod": "Y053",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal; 'önemli rol' ve 'kendi' düşmüş."
+   },
+   {
+    "kor_kod": "Y055",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "'12 saat sıcak, ... 24 saat soğuk tutar' yinelemeli ama okunur; bilgiler tam."
+   },
+   {
+    "kor_kod": "Y057",
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "'etkili bir şekilde ... önemli bir rol oynuyor' kalıpları aynen kalmış; çeviri kokusu giderilmemiş."
+   },
+   {
+    "kor_kod": "Y059",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Tek tırnak 'Önbelleği temizleyin' yerine çift tırnak gerekir; 'önerisi ... yapılır' edilgen ağır."
+   },
+   {
+    "kor_kod": "Y061",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "'çelik termos; sıcak içecekleri' öznenin ardından gereksiz noktalı virgül."
+   },
+   {
+    "kor_kod": "Y063",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; sade, doğal ve bilgiler tam."
+   },
+   {
+    "kor_kod": "Y065",
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "'büyük önem taşır', 'katkı sağlar', 'Bu nedenle' YZ kalıpları kaynağa yakın bırakılmış; görev tam yerine getirilmemiş."
+   },
+   {
+    "kor_kod": "Y067",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tek ama belirgin hata: 'TDK'ye'."
+   },
+   {
+    "kor_kod": "Y069",
+    "imla_noktalama": 2,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "'TDK'ye' yanlış; 'misin yoksa' ve 'gideceksin çünkü' öncesinde virgül yok, sonda '?'."
+   },
+   {
+    "kor_kod": "Y071",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "'Uzmanlara göre' atfı düşmüş ('Haftada ... egzersiz önerilir'), 'vazgeçilmez' de kaybolmuş; cümleler kısa ve kesik."
+   },
+   {
+    "kor_kod": "Y073",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; 5 cümle, sade ve teknik olarak doğru."
+   },
+   {
+    "kor_kod": "Y075",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "'12 saat sıcak, ... 24 saat soğuk tutar' yinelemeli; 500 ml'lik doğru yazılmış, bilgiler tam."
+   },
+   {
+    "kor_kod": "Y077",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Uzun ve tekdüze cümleler; 'amaç ... yönlendirmektir' ağır duruyor."
+   },
+   {
+    "kor_kod": "Y079",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; sade, akıcı, tüm bilgiler korunmuş."
+   },
+   {
+    "kor_kod": "Y081",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kesinlik ve bilgi korunmuş."
+   },
+   {
+    "kor_kod": "Y083",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal; 'kendi' ve 'önemli rol' düşmüş."
+   },
+   {
+    "kor_kod": "Y085",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Düzeltme doğru; yalnız sondaki '?' kaynaktaki noktanın yerine geçmiş."
+   },
+   {
+    "kor_kod": "Y087",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "'bazı içerikler', 'bazı dosyaları' belirsiz; doğru ama ince."
+   },
+   {
+    "kor_kod": "Y089",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "'Söz konusu lambanın onarılmasını arz ederim' kalıbı oturmamış; yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y091",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; bilgiler tam, 'Kullandıktan sonra' zararsız."
+   },
+   {
+    "kor_kod": "Y093",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kısa, doğal, tüm istekler var."
+   },
+   {
+    "kor_kod": "Y095",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "'önemli bir yer tutuyor' yerinde ama 'kendi' düşmüş; ters çevrilmiş yapı biraz sıkışık."
+   }
+  ]
+ },
+ {
+  "puanlayici": 1,
+  "parca": 2,
+  "istenen": 48,
+  "puanlar": [
+   {
+    "kor_kod": "Y049",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"Masayı tutun, siz sipariş vermeye başlayın, beni beklemeyin\" doğal ve istenen her şeyi kapsıyor."
+   },
+   {
+    "kor_kod": "Y050",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "\"Ürün, bulaşık makinesinde yıkanabilir\" cümlesinde özneden sonra gereksiz virgül var; bilgiler eksiksiz ve uydurma yok."
+   },
+   {
+    "kor_kod": "Y051",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"yönetmesini sağladığı için önemli\" doğal ama \"önemli bir rol\" zayıflamış; yine de anlam büyük oranda korunmuş."
+   },
+   {
+    "kor_kod": "Y052",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Anlam ve kesinlik derecesi korunmuş; \"Bu etkinin ... gözlenmiştir; bu bulgu\" ardışık \"bu\" tekrarı hafif ağırlık katıyor."
+   },
+   {
+    "kor_kod": "Y053",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Doğal ama \"önemli bir rol\" ve \"kendi\" düşmüş; \"verilerini daha etkili yönetebiliyor\" anlamı eksiltiyor."
+   },
+   {
+    "kor_kod": "Y054",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"siparişe de başlayın lütfen; ben gelir gelmez katılırım\" WhatsApp için biraz resmî, noktalı virgül mesaj havasına uymuyor."
+   },
+   {
+    "kor_kod": "Y055",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; bilgiler eksiksiz, \"temizliği de kolaydır\" verilen bilgiden makul çıkarım."
+   },
+   {
+    "kor_kod": "Y056",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"bulgu literatürle uyumlu bulunmuştur\" akademik ve doğal, kesinlik derecesi korunmuş."
+   },
+   {
+    "kor_kod": "Y057",
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "Çeviri kokusu aynen duruyor: \"daha etkili bir şekilde yönetebilmesinde önemli bir rol oynuyor\"; görev doğallaştırmaktı."
+   },
+   {
+    "kor_kod": "Y058",
+    "imla_noktalama": 4,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 3,
+    "gerekce": "\"etkiye sahip olduğu\", \"gözlemlenmiş olup elde edilen bulgu\" kalıpları ağır; \"olup\" öncesi/sonrası noktalama zayıf."
+   },
+   {
+    "kor_kod": "Y059",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle, teknik olarak doğru; \"önerisi, bu eski kopyaların silinmesi ve ... indirmesi için yapılır\" biraz edilgen ve dolambaçlı."
+   },
+   {
+    "kor_kod": "Y060",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"analiz edildiğinde egzersiz sıklığının\" uzun yan cümleden sonra virgül eksik; içerik ve kesinlik korunmuş."
+   },
+   {
+    "kor_kod": "Y061",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"bu paslanmaz çelik termos; sıcak içecekleri\" ifadesinde özneyi yüklemden ayıran hatalı noktalı virgül var."
+   },
+   {
+    "kor_kod": "Y062",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"12 saat sıcak, 24 saat soğuk tutar\" kısa, doğru ve verilen bilgiye bağlı."
+   },
+   {
+    "kor_kod": "Y063",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Büyük oranda doğal; \"Kısacası egzersizi ... hâline getirmek gerekir\" hâlâ özet kalıbı, \"hem ... hem de\" yığılması var."
+   },
+   {
+    "kor_kod": "Y064",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"geç kalacağım galiba 😕 Siz\" emojiden sonra cümle ayrımı yok ve \"galiba\" kesin gecikmeyi belirsizleştiriyor; ekstra özür eklenmiş."
+   },
+   {
+    "kor_kod": "Y065",
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"büyük önem taşır\", \"katkı sağlar\", \"Bu nedenle ... vazgeçilmez bir parçası olmalıdır\" kalıpları korunmuş; görev bunları temizlemekti."
+   },
+   {
+    "kor_kod": "Y066",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle, sade ve doğru; cümleler ritim bakımından birbirine benziyor."
+   },
+   {
+    "kor_kod": "Y067",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" yanlış, girdideki doğru \"TDK'ya\" bozulmuş; diğer düzeltmeler doğru."
+   },
+   {
+    "kor_kod": "Y068",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" yanlış, girdideki doğru \"TDK'ya\" bozulmuş; diğer düzeltmeler doğru."
+   },
+   {
+    "kor_kod": "Y069",
+    "imla_noktalama": 2,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "\"TDK'ye\" yanlış, \"gelecek misin yoksa\" ve \"gideceksin çünkü\" öncesi virgüller silinmiş; yapı düzeltilmemiş gibi okunuyor."
+   },
+   {
+    "kor_kod": "Y070",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kısa, doğru, uydurma özellik yok."
+   },
+   {
+    "kor_kod": "Y071",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "\"Uzmanlara göre\" kaynağı düşmüş (\"Haftada en az 150 dakika ... önerilir\"); kısa cümleler monoton."
+   },
+   {
+    "kor_kod": "Y072",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 2,
+    "akicilik": 5,
+    "gerekce": "Metin 7 cümle, istenen 4-5 sınırının çok üstünde; içerik ve dil çok iyi."
+   },
+   {
+    "kor_kod": "Y073",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle, sade ve doğru; \"Ancak ... Bu da ... yol açabilir\" ritmi hafif tekdüze."
+   },
+   {
+    "kor_kod": "Y074",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"temizliği de zahmetsizdir\" biraz reklam dili; bilgiler doğru ve eksiksiz."
+   },
+   {
+    "kor_kod": "Y075",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"sıcak içeceğinizi 12 saat sıcak, soğuk içeceğinizi 24 saat soğuk tutar\" net ve doğru."
+   },
+   {
+    "kor_kod": "Y076",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle ve doğru; \"Bu nedenle bazı sorunlarda önbelleği temizlemeniz istenir\" edilgen ve hafif kalıp."
+   },
+   {
+    "kor_kod": "Y077",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 3,
+    "gerekce": "Cümleler uzun ve aynı boyda; \"amaç, ... yeniden indirmeye yönlendirmektir\" ağır ve resmî."
+   },
+   {
+    "kor_kod": "Y078",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 3,
+    "gerekce": "\"Tarayıcı önbelleği; ziyaret ettiğiniz...\" öznenin ardında hatalı noktalı virgül var; \"hızla yüklenerek ... sağlar\" kuruluşu bozuk."
+   },
+   {
+    "kor_kod": "Y079",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"hem etkili hem kolay ulaşılabilir hem de uzun süre devam ettirilebilir\" yığılması var ve son cümle \"olmalı\" ile kayıt değiştiriyor."
+   },
+   {
+    "kor_kod": "Y080",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Çok doğal; \"önemli bir rol\" düşmüş ve \"kolaylaştırıyor\" \"olanak sağlıyor\"dan farklı."
+   },
+   {
+    "kor_kod": "Y081",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; anlam ve kesinlik korunmuş, iki cümle akıcı."
+   },
+   {
+    "kor_kod": "Y082",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"500 ml'lik\" doğru yazılmış, bilgiler eksiksiz."
+   },
+   {
+    "kor_kod": "Y083",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Akıcı ama \"önemli bir rol\" ve \"kendi\" kaybolmuş; \"yönetmesini sağlar\" anlamı sadeleştirmiş."
+   },
+   {
+    "kor_kod": "Y084",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"saptanmıştır\" ile akademik kesinlik korunmuş, doğal akış."
+   },
+   {
+    "kor_kod": "Y085",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"TDK'ya\", \"14.30'da\", \"Ayşe'ye\", \"ben de\", \"bilmiyorum ki\" ve soru işareti doğru."
+   },
+   {
+    "kor_kod": "Y086",
+    "imla_noktalama": 4,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 3,
+    "gerekce": "\"bir 30 dakika kadar\" ifadesi Türkçede bozuk; \"yaklaşık\" ve \"hiç beklemeden\" ile ton biraz zorlama."
+   },
+   {
+    "kor_kod": "Y087",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; 4 cümle, sade ve doğru."
+   },
+   {
+    "kor_kod": "Y088",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"aydınlatma lambası\" talepteki \"sokak lambası\"ndan sapıyor; resmî dil yoğun ama dilekçe için beklenen düzeyde."
+   },
+   {
+    "kor_kod": "Y089",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Konu satırı ve imza yok; \"Oturduğum sokaktaki sokak lambası\" tekrar var, \"onarılmasını arz ederim\" çok kısa."
+   },
+   {
+    "kor_kod": "Y090",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Masayı tutarsanız ... çok sevinirim\" talebi şarta bağlıyor, \"yakında oradayım\" 30 dakikalık gecikmeyle çelişiyor."
+   },
+   {
+    "kor_kod": "Y091",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Doğru ve yeterli; \"Kullandıktan sonra bulaşık makinesinde yıkayabilirsiniz\" dolgu gibi."
+   },
+   {
+    "kor_kod": "Y092",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular ve konu satırı tam; \"ikamet etmekteyim ... yanmamaktadır\" -maktadır yığılması resmî dilekçede kabul edilebilir."
+   },
+   {
+    "kor_kod": "Y093",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kısa, doğal, tek mesaj ve istenenleri kapsıyor."
+   },
+   {
+    "kor_kod": "Y094",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"sağlayarak önemli bir işlev üstleniyor\" kalıbı çeviri kokusunu büyük ölçüde koruyor."
+   },
+   {
+    "kor_kod": "Y095",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"önemli bir yer tutuyor\" doğal sayılır ama \"kendi\" düşmüş ve yer değiştirmiş sıra biraz yapay."
+   },
+   {
+    "kor_kod": "Y096",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" yanlış, girdideki doğru \"TDK'ya\" bozulmuş; geri kalan düzeltmeler doğru."
+   }
+  ]
+ },
+ {
+  "puanlayici": 2,
+  "parca": 1,
+  "istenen": 48,
+  "puanlar": [
+   {
+    "kor_kod": "Y096",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğru olan \"TDK'ya\" yanlış biçimde \"TDK'ye\" yapılmış; cümle \"gideceksin? Çünkü\" diye bölünerek yapı da değişmiş. Diğer düzeltmeler (Sen de, misin, 14.30'da, Ayşe'ye, ben de, bilmiyorum ki) doğru."
+   },
+   {
+    "kor_kod": "Y095",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"bu yeni özellik önemli bir yer tutuyor\" doğal ve çeviri kokmuyor. Ancak \"kendi\" düşmüş, anlam çok az kaymış."
+   },
+   {
+    "kor_kod": "Y094",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"önemli bir işlev üstleniyor\" İngilizce \"plays a role\" kalıbını taşıyor, tam doğal değil. Anlam korunmuş."
+   },
+   {
+    "kor_kod": "Y093",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Kusur yok; bilgilerin hepsi var. Biraz kuru, selam ve samimi dokunuş yok: \"Siz masayı tutun, siparişe de başlayın.\""
+   },
+   {
+    "kor_kod": "Y092",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Resmî dilekçe düzeni ve yer tutucular doğru, uydurma bilgi yok. \"Söz konusu sokak lambasının onarılması için gereğinin yapılmasını arz ederim\" kalıp ama tür gereği kabul edilir."
+   },
+   {
+    "kor_kod": "Y091",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Bilgiler eksiksiz, özellik uydurulmamış. \"Kullandıktan sonra bulaşık makinesinde yıkayabilirsiniz\" hafif dolgu."
+   },
+   {
+    "kor_kod": "Y090",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Samimi ve doğal; ancak istek \"Masayı tutarsanız ... çok sevinirim\" diye koşula çevrilerek yumuşamış. \"Geliyorum, yakında oradayım!\" ekleme sayılır."
+   },
+   {
+    "kor_kod": "Y089",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular doğru ama çok kısa; \"Söz konusu lambanın onarılmasını arz ederim\" saygı kalıbından ve gereğinden yoksun, \"Konu\" satırı yok."
+   },
+   {
+    "kor_kod": "Y088",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Dilekçe biçimi ve yer tutucular tam. \"sokak lambası\" yerine \"aydınlatma lambası\" denmiş, küçük sözcük sapması."
+   },
+   {
+    "kor_kod": "Y087",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "4 cümle, doğru ve sade; ama biraz yüzeysel ve edilgen: \"bazı içerikler yeniden indirilmeden kullanılabilir ve sayfa daha hızlı yüklenebilir\"."
+   },
+   {
+    "kor_kod": "Y086",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"bir 30 dakika kadar gecikeceğim\" doğal Türkçe değil, \"bir\" yersiz. Geri kalanı samimi ve görev tam."
+   },
+   {
+    "kor_kod": "Y085",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Tüm düzeltmeler doğru (TDK'ya, 14.30'da, Ayşe'ye) ve yapı korunmuş. Tek şüphe, bildirim yan cümlesini de kapsayan sondaki \"kimler gelecek?\" soru işareti."
+   },
+   {
+    "kor_kod": "Y084",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"saptanmıştır\" akademik metinde uygun, kesinlik derecesi ve bilgiler korunmuş."
+   },
+   {
+    "kor_kod": "Y083",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Doğal ama \"önemli bir rol\" iddiası ve \"kendi\" düşmüş: \"yönetmesini sağlar\". Anlamdan eksilme var."
+   },
+   {
+    "kor_kod": "Y082",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Bilgiler doğru ve eksiksiz; ancak sönük, kısa cümleler: \"Bulaşık makinesinde yıkanabilir.\""
+   },
+   {
+    "kor_kod": "Y081",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal akademik dil. \"gözlemlenmiştir\" yerine analizin \"göstermiştir\" demesiyle gözlem/tespit ayrımı biraz kaymış."
+   },
+   {
+    "kor_kod": "Y080",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Akıcı ama \"önemli bir rol\" düşmüş ve \"olanak sağlamak\" \"kolaylaştırıyor\" olmuş: anlam hafifçe değişmiş."
+   },
+   {
+    "kor_kod": "Y079",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"zihinsel sağlık\" yerine \"ruh sağlığı\" denmiş, küçük kayma. \"hem etkili hem kolay ulaşılabilir hem de uzun süre devam ettirilebilir\" üçlü hem yığını."
+   },
+   {
+    "kor_kod": "Y078",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 3,
+    "gerekce": "\"Tarayıcı önbelleği; ziyaret ettiğiniz...\" özneden sonra yersiz noktalı virgül. \"cihazınızdan hızla yüklenerek sayfanın çok daha çabuk açılmasını sağlar\" özne karışık."
+   },
+   {
+    "kor_kod": "Y077",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle, doğru ve anlaşılır. \"İşte bu yüzden ... amaç, ... yönlendirmektir\" biraz kitabi ve uzun."
+   },
+   {
+    "kor_kod": "Y076",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle, teknik olarak doğru. \"Bu nedenle bazı sorunlarda önbelleği temizlemeniz istenir\" edilgen ve kuru."
+   },
+   {
+    "kor_kod": "Y075",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"içeceğinizi 12 saat sıcak, 24 saat soğuk\" doğal ve bilgiler tam."
+   },
+   {
+    "kor_kod": "Y074",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Bilgiler eksiksiz. \"temizliği de zahmetsizdir\" hafif süs."
+   },
+   {
+    "kor_kod": "Y073",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "5 cümle, sade ve doğru. \"buna önbellek denir\" ve sonrası akıcı, biraz kalıp."
+   },
+   {
+    "kor_kod": "Y072",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "Doğal ve canlı anlatım, ancak 7 cümle; istenen 4-5 sınırı aşılmış. Son cümle uzun ve noktalı virgüllü."
+   },
+   {
+    "kor_kod": "Y071",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"Uzmanlara göre\" atfı silinmiş: \"Haftada en az 150 dakika ... önerilir.\" Ayrıca \"vazgeçilmez\" yerine \"düzenli bir parçası\" ile vurgu azalmış."
+   },
+   {
+    "kor_kod": "Y070",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Bilgiler doğru; sönük ve kısa: \"Bulaşık makinesinde yıkanabilir.\""
+   },
+   {
+    "kor_kod": "Y069",
+    "imla_noktalama": 2,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"TDK'ye\" yanlış; \"misin yoksa\" ve \"gideceksin çünkü\" öncesindeki virgüller silinmiş. Cümle uzun ve soluksuz kalmış."
+   },
+   {
+    "kor_kod": "Y068",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" yanlış (doğrusu TDK'ya); cümle \"gideceksin? Çünkü\" diye bölünmüş. Diğer düzeltmeler doğru."
+   },
+   {
+    "kor_kod": "Y067",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" yanlış (doğrusu TDK'ya); cümle \"gideceksin? Çünkü\" diye bölünmüş. Diğer düzeltmeler doğru."
+   },
+   {
+    "kor_kod": "Y066",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle, doğru ve sade. \"yanlış görünebilir ya da düzgün çalışmayabilir\" biraz genel."
+   },
+   {
+    "kor_kod": "Y065",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "Kaçınılması istenen kalıplar kalmış: \"büyük önem taşır\", \"katkı sağlar\", \"Bu nedenle egzersiz ... olmalıdır\". Bu nedenle bağı da yersiz."
+   },
+   {
+    "kor_kod": "Y064",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Samimi ve doğal; ancak \"geç kalacağım galiba 😕 Siz\" cümle sonu işaretsiz. \"galiba\" kesinliği azaltmış, \"Kusura bakmayın!\" ek."
+   },
+   {
+    "kor_kod": "Y063",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Kusur yok; bilgiler korunmuş, yapay kalıplar temizlenmiş. Ritim biraz düzgün: \"Kısacası egzersizi ... getirmek gerekir.\""
+   },
+   {
+    "kor_kod": "Y062",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"12 saat sıcak, 24 saat soğuk tutar\" kısa ve doğal."
+   },
+   {
+    "kor_kod": "Y061",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"bu paslanmaz çelik termos; sıcak içecekleri\" özneden sonra yersiz noktalı virgül. Bilgiler eksiksiz."
+   },
+   {
+    "kor_kod": "Y060",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kesinlik derecesi ve bilgiler korunmuş, \"-miştir\" uyarısı yanlış alarm."
+   },
+   {
+    "kor_kod": "Y059",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Doğal, 5 cümle ve doğru. Küçük kusur: 'Önbelleği temizleyin' tek tırnakla yazılmış."
+   },
+   {
+    "kor_kod": "Y058",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 3,
+    "gerekce": "\"olumlu bir etkiye sahip olduğu\" ve \"gözlemlenmiş olup elde edilen bulgu\" çeviri kokulu, kalıp yığını. İkinci cümle ağır."
+   },
+   {
+    "kor_kod": "Y057",
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "Özgün kalıplar neredeyse aynen kalmış: \"daha etkili bir şekilde\", \"önemli bir rol oynuyor\". Cümle yeniden yazılmamış."
+   },
+   {
+    "kor_kod": "Y056",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Doğal akademik dil, anlam korunmuş. Sondaki \"bulgu literatürle uyumlu bulunmuştur\" biraz hantal."
+   },
+   {
+    "kor_kod": "Y055",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"12 saat sıcak, ... 24 saat soğuk tutar\" doğal, bilgiler tam."
+   },
+   {
+    "kor_kod": "Y054",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Samimi ve tek mesaj. \"ben gelir gelmez katılırım\" biraz resmî."
+   },
+   {
+    "kor_kod": "Y053",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Akıcı ve doğal, fakat \"önemli bir rol\" ile \"kendi\" düşmüş: \"kullanıcılar verilerini daha etkili yönetebiliyor\"."
+   },
+   {
+    "kor_kod": "Y052",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"olumlu bir etkisi olduğu belirlenmiştir\" doğal, kesinlik korunmuş."
+   },
+   {
+    "kor_kod": "Y051",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Anlam korunmuş ve doğal. Cümle \"... sağladığı için önemli.\" diye kısa ve biraz ani bitiyor."
+   },
+   {
+    "kor_kod": "Y050",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Bilgiler tam, uydurma yok. \"Ürün, bulaşık makinesinde yıkanabilir.\" düz ve kuru."
+   },
+   {
+    "kor_kod": "Y049",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Doğal ve samimi, tüm istekler var. \"siz sipariş vermeye başlayın, beni beklemeyin\" biraz sert ve kuru."
+   }
+  ]
+ },
+ {
+  "puanlayici": 2,
+  "parca": 2,
+  "istenen": 48,
+  "puanlar": [
+   {
+    "kor_kod": "Y048",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Tüm yer tutucular var, dilekçe kalıbı doğru. \"hususunda gereğinin yapılmasını\" ağır bir resmî kalıp."
+   },
+   {
+    "kor_kod": "Y047",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "5 cümle, teknik olarak doğru. \"bozuk kaydedilmiş bir dosya\" ve \"sizden ... diye istenir\" biraz kasıntı."
+   },
+   {
+    "kor_kod": "Y046",
+    "imla_noktalama": 4,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "6 cümle olduğu için 4-5 sınırı aşılmış. \"Yalnız önbelleği seçtiğiniz sürece şifreleriniz silinmez, tek bedeli...\" hem kasıntı hem virgülle birleşmiş."
+   },
+   {
+    "kor_kod": "Y045",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular ve resmî ton tam. \"Konu: ... hakkında.\" satırı noktayla bitiyor; \"arz ve talep ederim\" kalıplaşmış ama uygun."
+   },
+   {
+    "kor_kod": "Y044",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular tam ama \"Lambanın onarılmasını arz ederim.\" çok kuru, saygı ifadesi yok; \"yanmıyor\" gibi sade fiillerle \"arz ederim\" karışık bir ton veriyor."
+   },
+   {
+    "kor_kod": "Y043",
+    "imla_noktalama": 2,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "Doğru olan \"TDK'ya\" yanlışlıkla \"TDK'ye\" yapılmış; soru cümlesi \"kimler gelecek.\" diye noktayla bitmiş."
+   },
+   {
+    "kor_kod": "Y042",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"İlçeniz sınırları içerisindeki\" kaynakta olmayan bir varsayım, \"yaklaşık üç haftadır\" kesinliği gevşetiyor. \"ikamet etmekteyim\", \"arz ve talep ederim\" gibi kalıplar da yığılmış."
+   },
+   {
+    "kor_kod": "Y041",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Samimi tek mesaj. \"ben gelince yetişirim\" mantıken biraz tuhaf."
+   },
+   {
+    "kor_kod": "Y040",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular tam. \"Konu: ... talebi.\" satırı noktayla bitmiş; \"onarılması hususunda gereğini arz ederim\" ağır."
+   },
+   {
+    "kor_kod": "Y039",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Yalnız \"TDK'ya\" doğruyken \"TDK'ye\" yapılmış. Diğer düzeltmeler doğru."
+   },
+   {
+    "kor_kod": "Y038",
+    "imla_noktalama": 3,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"Dünyanın hızla değiştiği bir dönemde\" yapay zekâ girişi olduğu gibi kalmış. \"bisiklet, etkili\" öznenin ardında virgül var ve \"önemli.\" ile \"seçenekleridir\" üslubu karışık."
+   },
+   {
+    "kor_kod": "Y037",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"belirleyicidir\" anlamı kaydırıyor, \"vazgeçilmez\" yerine \"kalıcı\" gelmiş. \"bisiklet ise\" zıtlık olmadığı için yersiz."
+   },
+   {
+    "kor_kod": "Y036",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal ve akıcı. \"önemli bir rol\" düşmüş, anlam hafif eksilmiş."
+   },
+   {
+    "kor_kod": "Y035",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"TDK'ya\" yanlışlıkla \"TDK'ye\" yapılmış. \"gideceksin; çünkü\" noktalı virgül gereksiz bir değişiklik."
+   },
+   {
+    "kor_kod": "Y034",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"Gün boyu yanınızda taşıyabileceğiniz\" verilmeyen bir özellik ekliyor."
+   },
+   {
+    "kor_kod": "Y033",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" hatası var. Diğer düzeltmeler doğru ve yapı korunmuş."
+   },
+   {
+    "kor_kod": "Y032",
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "Neredeyse çevrilmemiş: \"etkiye sahip olduğunu\", \"farklılık gösterdiğini\", \"uyumluluk göstermektedir\" kalıpları aynen duruyor."
+   },
+   {
+    "kor_kod": "Y031",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"önemli bir yere sahip\" çeviri kokan \"-e sahip olmak\" kalıbı. Anlam eksiksiz korunmuş."
+   },
+   {
+    "kor_kod": "Y030",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular ve dilekçe düzeni tam. \"Sokağımızdaki sokak lambası\" tekrar ediyor, \"-maktadır\" yığılmış ama kalıp olarak kabul edilebilir."
+   },
+   {
+    "kor_kod": "Y029",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"anketlerin analizinde\" çoğul, kaynaktaki \"anket sonuçları\"ndan kayma var. \"farklılık gösterdiği de gözlenen bu sonuç\" ağır."
+   },
+   {
+    "kor_kod": "Y028",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Tüm bilgiler korunmuş, kalıplar temizlenmiş. \"olmalıdır\" biraz resmî."
+   },
+   {
+    "kor_kod": "Y027",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Sade ve akıcı ama \"Lambanın onarılmasını arz ederim.\" saygı ifadesinden yoksun ve resmî dilekçe için kuru."
+   },
+   {
+    "kor_kod": "Y026",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Doğal bir dil kullanılmış. \"herkesin kolayca yapabileceği\" \"erişilebilir\"i hafifçe genişletiyor."
+   },
+   {
+    "kor_kod": "Y025",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Bu yeni özellik önemli, çünkü...\" neden-sonuç ilişkisini tersine çevirmiş ve \"kendi\" düşmüş."
+   },
+   {
+    "kor_kod": "Y024",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Samimi ve doğal. \"ben de yetişirim\" içindeki \"de\" gereksiz."
+   },
+   {
+    "kor_kod": "Y023",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"temel taşlarından biridir\" kaynakta olmayan bir kalıp, \"hem... hem\" tekrar ediyor. Bilgiler korunmuş."
+   },
+   {
+    "kor_kod": "Y022",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Katılımcılara uygulanan\" düşmüş. \"üzerinde olumlu bir etkisi olduğunu\" gereksiz uzun."
+   },
+   {
+    "kor_kod": "Y021",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"500 ml kapasiteye sahip\" çeviri kokuyor, \"Pratik bir temizlik için ... güvenle\" süs ve ek iddia."
+   },
+   {
+    "kor_kod": "Y020",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y019",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Akıcı ve doğal. \"Katılımcılara uygulanan\" bilgisi düşmüş."
+   },
+   {
+    "kor_kod": "Y018",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"Trafik felaket kilitlendi\" ve \"gelince hemen yetişirim\" kulağa tuhaf, \"lütfen\" samimi mesajda kasıntı."
+   },
+   {
+    "kor_kod": "Y017",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Doğru olan \"TDK'ya\" yanlışlıkla \"TDK'ye\" yapılmış, başka kusur yok."
+   },
+   {
+    "kor_kod": "Y016",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"önemli bir katkı sağlıyor\" kalıpça kalmış, \"kendi\" düşmüş."
+   },
+   {
+    "kor_kod": "Y015",
+    "imla_noktalama": 2,
+    "dogallik": 4,
+    "gorev_uyumu": 2,
+    "akicilik": 3,
+    "gerekce": "Girdideki doğru virgüller silinmiş (\"misin yoksa\", \"gideceksin çünkü\"), \"TDK'ye\" hatalı."
+   },
+   {
+    "kor_kod": "Y014",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"[ADRES] adresindeki sokağımızda\" kafa karıştırıcı, [ADRES] iki kez geçiyor."
+   },
+   {
+    "kor_kod": "Y013",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y012",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Yaş grupları arasında farklılık gösterdiği de gözlenen bu bulgu\" bulguyu bulanıklaştırıyor."
+   },
+   {
+    "kor_kod": "Y011",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y010",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"etkili olduğu kadar erişilebilir seçeneklerdir, üstelik sürdürmesi de kolaydır\" biraz kıvrık."
+   },
+   {
+    "kor_kod": "Y009",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal. \"önemli bir rol\" nüansı düşmüş."
+   },
+   {
+    "kor_kod": "Y008",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y007",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "Görevde 4-5 cümle istenmiş, \"İşte bu teknik uyumsuzlukları gidermek...\" ve \"zaman zaman kullanıcılara... söylenir\" kalıbı kasıntı; ayrıca 5 cümleyi zor tutuyor."
+   },
+   {
+    "kor_kod": "Y006",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y005",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y004",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"İlgi:\" kullanımı yanlış, \"[SOKAK ADI] Sokak'ta\" kesmesi hatalı; fazladan yer tutucu ekliyor."
+   },
+   {
+    "kor_kod": "Y003",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"büyük önem taşır\" ve \"Bu doğrultuda\" kalmış, \"vazgeçilmez\" yumuşatılmış."
+   },
+   {
+    "kor_kod": "Y002",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"bisiklet, etkili\" öznenin ardında gereksiz virgül; bilgiler korunmuş."
+   },
+   {
+    "kor_kod": "Y001",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   }
+  ]
+ },
+ {
+  "puanlayici": 1,
+  "parca": 1,
+  "istenen": 48,
+  "puanlar": [
+   {
+    "kor_kod": "Y001",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Yazım ve noktalama doğru (\"TDK'ya\", \"14.30'da\", \"Ayşe'ye\"). Tek kusur, tek cümleyi \"gideceksin? Çünkü ben de...\" diye ikiye bölmesi; yapıyı koru talimatına tam uymuyor."
+   },
+   {
+    "kor_kod": "Y002",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Kalıplar temizlenmiş, bilgi kaybı yok. \"Yürüyüş, yüzme ve bisiklet, etkili, erişilebilir...\" ardışık virgülü okumayı bozuyor; \"vazgeçilmez bir parçası olmalıdır\" biraz resmî kalmış."
+   },
+   {
+    "kor_kod": "Y003",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"büyük önem taşır\" ve \"Bu doğrultuda egzersiz...\" YZ kalıbı olarak duruyor. Bilgi korunmuş, yazım temiz."
+   },
+   {
+    "kor_kod": "Y004",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"[SOKAK ADI] Sokak'ta\" ek ve kesme kullanımı kusurlu. \"İlgi: [İLGİLİ MAHALLE / SOKAK BİLGİSİ]\" satırı gereksiz; yer tutucular ve resmî üslup yerinde."
+   },
+   {
+    "kor_kod": "Y005",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. Anlam ve kesinlik korunmuş, akademik dil sade; \"belirlenmiştir\" bu türde yerinde, denetleyici uyarısı yanlış alarm."
+   },
+   {
+    "kor_kod": "Y006",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. Dört cümle, sade ve teknik olarak doğru; \"yanlış görünmesine veya bazı işlevlerin çalışmamasına\" gibi akıcı bağlantılar var."
+   },
+   {
+    "kor_kod": "Y007",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Beş cümle, içerik doğru. \"İşte bu teknik uyumsuzlukları gidermek ve ... sorunsuzca görebilmek için\" gereksiz uzun; cümle boyları da tekdüze."
+   },
+   {
+    "kor_kod": "Y008",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. Samimi, kısa, tek mesaj; \"Siz masayı tutup siparişe başlayın, ben geliyorum.\" doğal."
+   },
+   {
+    "kor_kod": "Y009",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Çeviri kokusu giderilmiş. \"kendi\" ve \"önemli rol\" vurgusu düşmüş, \"yardımcı olur\" anlamı biraz yumuşatmış."
+   },
+   {
+    "kor_kod": "Y010",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"etkili olduğu kadar erişilebilir seçeneklerdir, üstelik sürdürmesi de kolaydır\" özne uyumsuz ve virgülle birleşik. Bunun dışında doğal, bilgi korunmuş."
+   },
+   {
+    "kor_kod": "Y011",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. Doğal, kısa ve istenen her unsuru taşıyor (yarım saat, trafik, masa, sipariş)."
+   },
+   {
+    "kor_kod": "Y012",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Yaş grupları arasında farklılık gösterdiği de gözlenen bu bulgu\" farkın neye ait olduğunu bulandırıyor. Genel olarak doğal akademik dil, anlam büyük ölçüde korunmuş."
+   },
+   {
+    "kor_kod": "Y013",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Verilen bilgiler eksiksiz, uydurma yok; iki cümle. İkinci cümle \"Bulaşık makinesinde yıkanabilir.\" biraz kuru."
+   },
+   {
+    "kor_kod": "Y014",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"[ADRES] adresindeki sokağımızda bulunan sokak lambası\" yapısı kasıntı; \"incelenerek\" kaynakta olmayan küçük ekleme. Yer tutucular ve resmî biçim doğru."
+   },
+   {
+    "kor_kod": "Y015",
+    "imla_noktalama": 2,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 2,
+    "gerekce": "Doğru \"TDK'ya\" yanlış \"TDK'ye\" yapılmış; \"gelecek misin yoksa\" ve \"gideceksin çünkü\" virgülleri düşmüş, tek nefeste okunan bir cümle çıkmış."
+   },
+   {
+    "kor_kod": "Y016",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"önemli bir katkı sağlıyor\" hâlâ çeviri kalıbı; \"kendi\" düşmüş. Cümle okunur ama doğal sayılmaz."
+   },
+   {
+    "kor_kod": "Y017",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" hatalı (doğrusu \"TDK'ya\"); doğru yazılmış sözcüğü bozmuş. Ayrıca cümleyi \"? Çünkü...\" diye bölmüş."
+   },
+   {
+    "kor_kod": "Y018",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 3,
+    "gerekce": "\"Trafik felaket kilitlendi\", \"Siz lütfen... siparişleri verin\" ve \"gelince hemen yetişirim\" yapay ve mantık olarak tuhaf; samimiyet zorlama."
+   },
+   {
+    "kor_kod": "Y019",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Akıcı ve kesinlik korunmuş. \"Katılımcılara uygulanan\" bilgisi düşmüş; \"ortaya koymuştur\" bulguyu bir miktar güçlendirmiş."
+   },
+   {
+    "kor_kod": "Y020",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. Kısa, doğal, istenen her unsur var."
+   },
+   {
+    "kor_kod": "Y021",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"500 ml kapasiteye sahip\" ve \"Pratik bir temizlik için ... güvenle yıkanabilir\" süslü; \"güvenle\" kaynakta olmayan küçük bir iddia."
+   },
+   {
+    "kor_kod": "Y022",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Katılımcılara uygulanan\" düşmüş; \"olumlu bir etkisi olduğunu ... farklılık gösterdiğini ortaya koymuştur\" ağır ama kabul edilebilir akademik dil."
+   },
+   {
+    "kor_kod": "Y023",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"temel taşlarından biridir\" klişe ve kaynaktaki \"önem\"i abartıyor; \"uzun süre\" eklenmiş. Ritim ve akış iyi."
+   },
+   {
+    "kor_kod": "Y024",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. \"Selam, trafik felaket, yemeğe yarım saat kadar geç kalacağım.\" samimi ve doğal."
+   },
+   {
+    "kor_kod": "Y025",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Bu yeni özellik önemli, çünkü...\" anlamı korumuş ama \"kendi\" düşmüş, \"onun sayesinde\" biraz dolambaçlı."
+   },
+   {
+    "kor_kod": "Y026",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal ve akıcı. \"herkesin kolayca yapabileceği\" kaynaktaki \"erişilebilir\"i hafifçe yorumlamış."
+   },
+   {
+    "kor_kod": "Y027",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Lambanın onarılmasını arz ederim.\" saygı kalıbı eksik ve fazla kısa; \"yanmıyor\" resmî üsluba göre sade. Yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y028",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Bilgiler eksiksiz, yazım temiz. \"vazgeçilmez bir parçası olmalıdır\" kaynaktan aynen alınmış, biraz resmî."
+   },
+   {
+    "kor_kod": "Y029",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"anketlerin\" çoğullaşmış; \"Yaş gruplarına göre farklılık gösterdiği de gözlenen bu sonuç\" kurgusu bulanık. Genelde doğal ve kesinlik korunmuş."
+   },
+   {
+    "kor_kod": "Y030",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Resmî biçim ve yer tutucular tam. \"Sokağımızdaki sokak lambası\" tekrarı ve \"gereğinin yapılmasını\" kalıbı biraz ağır."
+   },
+   {
+    "kor_kod": "Y031",
+    "imla_noktalama": 4,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"önemli bir yere sahip.\" hâlâ \"-e sahip\" kalıbı ve \"olmak\" eksik; anlam korunmuş."
+   },
+   {
+    "kor_kod": "Y032",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"olumlu bir etkiye sahip olduğunu\" ve \"literatür ile uyumluluk göstermektedir\" aynen kalmış; doğallaştırma neredeyse yapılmamış."
+   },
+   {
+    "kor_kod": "Y033",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Yapı ve virgüller korunmuş ama \"TDK'ye\" hatalı (doğrusu \"TDK'ya\"); cümle sonu \"?\" da tartışmalı."
+   },
+   {
+    "kor_kod": "Y034",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "Akıcı. \"Gün boyu yanınızda taşıyabileceğiniz\" verilen bilgide olmayan bir özellik eklemesi."
+   },
+   {
+    "kor_kod": "Y035",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" hatalı; \"gideceksin; çünkü\" noktalı virgül kabul edilebilir ama virgül yerine değiştirilmiş. Yapı korunmuş."
+   },
+   {
+    "kor_kod": "Y036",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. \"kendi verilerini daha etkili yönetmelerine yardımcı oluyor\" anlamı koruyup doğal söylüyor."
+   },
+   {
+    "kor_kod": "Y037",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"egzersiz yapmak belirleyicidir\", \"Hareket etmek\" ve \"kalıcı bir parçası\" kaynağın anlamını kaydırıyor; cümle boyları tekdüze."
+   },
+   {
+    "kor_kod": "Y038",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Bilgi tam korunmuş ama \"Dünyanın hızla değiştiği bir dönemde\" YZ açılışı duruyor; \"bisiklet, etkili, erişilebilir\" virgül dizilimi karışık."
+   },
+   {
+    "kor_kod": "Y039",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" hatalı (\"TDK'ya\" olmalı) ve cümle \"? Çünkü...\" diye bölünmüş; yapıyı koru talimatından sapma."
+   },
+   {
+    "kor_kod": "Y040",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular ve resmî yapı tam. \"Konu: ... talebi.\" sonundaki nokta gereksiz; \"hususunda gereğini arz ederim\" kalıp."
+   },
+   {
+    "kor_kod": "Y041",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Samimi ve eksiksiz; \"ben gelince yetişirim\" mantık olarak biraz tuhaf."
+   },
+   {
+    "kor_kod": "Y042",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"İlçeniz sınırları içerisindeki\" belediye türü hakkında kaynakta olmayan varsayım; \"yol, yayalar için tehlike oluşturmaktadır\" biraz bulanık. Dil resmî ve düzgün."
+   },
+   {
+    "kor_kod": "Y043",
+    "imla_noktalama": 3,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ye\" hatalı (doğrusu \"TDK'ya\"); yapı ve virgüller korunmuş, sonda nokta kullanılması soru yapısı için tartışmalı."
+   },
+   {
+    "kor_kod": "Y044",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Lambanın onarılmasını arz ederim.\" kısa ve \"oturduğum sokaktaki sokak lambası\" tekrarlı; resmî üslup biraz sade. Yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y045",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "\"Konu: ... hakkında.\" sonundaki nokta ve tarihin konudan sonra gelmesi biçimsel küçük kusur. Akış ve içerik iyi: \"karanlık da yayalar için tehlike oluşturmaktadır\"."
+   },
+   {
+    "kor_kod": "Y046",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "Altı cümle, 4-5 sınırını aşıyor. \"Yalnız önbelleği seçtiğiniz sürece şifreleriniz silinmez\" biraz tuhaf; içerik doğru."
+   },
+   {
+    "kor_kod": "Y047",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. Beş cümle, sade ve teknik olarak doğru; neden-sonuç akışı iyi."
+   },
+   {
+    "kor_kod": "Y048",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Yer tutucular ve resmî yapı tam; akıcı. \"hususunda gereğinin yapılmasını\" kalıbı biraz ağır."
+   }
+  ]
+ },
+ {
+  "puanlayici": 3,
+  "parca": 1,
+  "istenen": 48,
+  "puanlar": [
+   {
+    "kor_kod": "Y002",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Yürüyüş, yüzme ve bisiklet, etkili\" cümlesinde gereksiz virgül var ve \"gibi aktiviteler\" düşmüş. Kalıplar temizlenmiş, ama \"hayatımızın vazgeçilmez bir parçası olmalıdır\" biraz resmî kalmış."
+   },
+   {
+    "kor_kod": "Y004",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"Sokak'ta\" kesmesi yersiz, \"İlgi: [İLGİLİ MAHALLE / SOKAK BİLGİSİ]\" satırı gereksiz ve yapay. Yer tutucular doğru kullanılmış, uydurma bilgi yok."
+   },
+   {
+    "kor_kod": "Y006",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Dört cümlelik tek paragraf, teknik olarak doğru. \"görsel ve diğer dosyaların bazılarını\" ifadesi biraz hantal."
+   },
+   {
+    "kor_kod": "Y008",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kısa, samimi, tek mesaj ve istenen her şey var."
+   },
+   {
+    "kor_kod": "Y010",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"sürdürmesi de kolaydır\" öznesi belirsiz kalmış ve \"sürdürülebilir\" anlamı kaymış. \"iyileştirir\" ile \"katkı sağlar\" yerine geçen kesinlik de biraz artmış."
+   },
+   {
+    "kor_kod": "Y012",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Anlam ve kesinlik korunmuş. \"analizi sonucunda\" ve \"örtüşmektedir\" biraz ağır, \"gözlenen bu bulgu\" yapısı da dolambaçlı."
+   },
+   {
+    "kor_kod": "Y014",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Yer tutucular tam. \"[ADRES] adresindeki sokağımızda bulunan sokak lambası\" tekrarlı ve ağır, \"Adres\" satırı da yineleniyor."
+   },
+   {
+    "kor_kod": "Y016",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"önemli bir katkı sağlıyor\" hâlâ kalıp tadında; \"kendi\" düşmüş, \"etkili\" yerine \"iyi\" gelmiş."
+   },
+   {
+    "kor_kod": "Y018",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"Trafik felaket kilitlendi\" yapay bir söyleyiş. \"Siz lütfen masayı tutun ... siparişleri verin\" de samimi mesaja göre fazla resmî."
+   },
+   {
+    "kor_kod": "Y020",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kısa ve doğal, tüm istekler karşılanmış."
+   },
+   {
+    "kor_kod": "Y022",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"uyku kalitesi üzerinde olumlu bir etkisi olduğunu\" ağır kalmış ve \"Katılımcılara uygulanan\" bilgisi silinmiş."
+   },
+   {
+    "kor_kod": "Y024",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"trafik felaket\" gibi doğal konuşma dili ve tek mesaj."
+   },
+   {
+    "kor_kod": "Y026",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"herkesin kolayca yapabileceği\" kaynaktaki \"erişilebilir\" ifadesini genişletmiş ve \"gibi\" düşmüş. Cümleler dengeli ama ritim biraz düz."
+   },
+   {
+    "kor_kod": "Y028",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "Bilgiler eksiksiz. \"katkıda bulunur\" ve \"vazgeçilmez bir parçası olmalıdır\" hâlâ biraz kalıp."
+   },
+   {
+    "kor_kod": "Y030",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"Sokağımızdaki sokak lambası\" tekrarı var, \"Adres: [ADRES]\" iki kez geçiyor. Resmî dil uygun ve yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y032",
+    "imla_noktalama": 5,
+    "dogallik": 2,
+    "gorev_uyumu": 3,
+    "akicilik": 3,
+    "gerekce": "\"etkiye sahip olduğunu\" ve \"uyumluluk göstermektedir\" gibi çeviri kokulu kalıplar aynen duruyor. \"literatür ile\" de bitişik yazılmamış."
+   },
+   {
+    "kor_kod": "Y034",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"Gün boyu yanınızda taşıyabileceğiniz\" verilmeyen bir özelliği ekliyor (uydurma)."
+   },
+   {
+    "kor_kod": "Y036",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal ve akıcı. \"önemli bir rol\" vurgusu \"yardımcı oluyor\" ile silikleşmiş."
+   },
+   {
+    "kor_kod": "Y038",
+    "imla_noktalama": 4,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "\"Dünyanın hızla değiştiği bir dönemde\" kaldırılması gereken açılış kalıbını koruyor. \"bisiklet, etkili\" virgülü hatalı ve \"gibi\" düşmüş."
+   },
+   {
+    "kor_kod": "Y040",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"Konu: ... talebi.\" satırında gereksiz nokta var. \"hususunda gereğini arz ederim\" ve \"sokakta bulunan sokak lambası\" ağır ve tekrarlı."
+   },
+   {
+    "kor_kod": "Y042",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"İlçeniz sınırları içerisindeki\" kaynakta olmayan bir varsayım, \"Konu\" satırı yok. \"yol, yayalar için\" virgülü ve \"arz ve talep\" ağır."
+   },
+   {
+    "kor_kod": "Y044",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"yanmıyor\" gibi konuşma kipi ile \"arz ederim\" karışmış, resmî dilekçe için üslup tutarsız. Yer tutucular doğru."
+   },
+   {
+    "kor_kod": "Y046",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "Altı cümle var; istenen 4-5 sınırı aşılmış. \"şifreleriniz silinmez, tek bedeli\" cümlesi virgülle yapışık ve hantal."
+   },
+   {
+    "kor_kod": "Y048",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"ivedilikle onarılması hususunda gereğinin yapılmasını\" ağır, bürokratik bir yığılma. Yer tutucular ve içerik tam."
+   },
+   {
+    "kor_kod": "Y050",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; iki cümle, verilen bilgilerle sınırlı."
+   },
+   {
+    "kor_kod": "Y052",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Anlam ve kesinlik korunmuş. \"üzerinde olumlu bir etkisi olduğu\" ağır kalıp, \"bu etkinin ... bu bulgu\" tekrarlı."
+   },
+   {
+    "kor_kod": "Y054",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"lütfen\" ve noktalı virgül samimi bir WhatsApp mesajına göre fazla resmî, \"ben gelir gelmez katılırım\" biraz kitabî."
+   },
+   {
+    "kor_kod": "Y056",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"olumlu yönde etkilediği\" ve \"gözlenmiş, bulgu ... bulunmuştur\" hafif kalıp ve eliptik. Anlam korunmuş."
+   },
+   {
+    "kor_kod": "Y058",
+    "imla_noktalama": 4,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 3,
+    "gerekce": "\"etkiye sahip olduğu\" ve \"gözlemlenmiş olup elde edilen bulgu\" çeviri kokulu ağır yapılar; \"olup\" öncesi virgül de eksik."
+   },
+   {
+    "kor_kod": "Y060",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Akıcı ve kesinlik korunmuş. \"olumlu yönde etkilediği\" hafif kalıp."
+   },
+   {
+    "kor_kod": "Y062",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; kısa, bilgiler tam, uydurma yok."
+   },
+   {
+    "kor_kod": "Y064",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"geç kalacağım galiba\" ile \"yarım saat kadar\" gereksiz çift belirsizlik; \"galiba 😕 Siz\" arasında noktalama yok, \"Kusura bakmayın!\" eklenmiş."
+   },
+   {
+    "kor_kod": "Y066",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; beş cümle, sade ve teknik olarak doğru."
+   },
+   {
+    "kor_kod": "Y068",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Yalnız \"TDK'ye\" biçimi, girdideki \"TDK'ya\" biçiminden saptırılmış; diğer düzeltmeler (de, misin, ki, Ayşe'ye, 14.30) doğru."
+   },
+   {
+    "kor_kod": "Y070",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; verilen bilgiyle sınırlı, iki kısa cümle."
+   },
+   {
+    "kor_kod": "Y072",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 2,
+    "akicilik": 4,
+    "gerekce": "Yedi cümle var; istenen 4-5 cümle çok aşılmış. Dil doğal ve içerik doğru."
+   },
+   {
+    "kor_kod": "Y074",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; \"temizliği de zahmetsizdir\" makul bir çıkarım."
+   },
+   {
+    "kor_kod": "Y076",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; beş cümle, temkinli ve doğru anlatım."
+   },
+   {
+    "kor_kod": "Y078",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"Tarayıcı önbelleği; ziyaret ettiğiniz ... alanıdır\" cümlesinde noktalı virgül yanlış kullanılmış. \"cihazınızdan hızla yüklenerek ... sağlar\" öznesi dolambaçlı."
+   },
+   {
+    "kor_kod": "Y080",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Doğal ve akıcı; \"önemli bir rol\" anlamı \"kolaylaştırıyor\" ile yumuşamış."
+   },
+   {
+    "kor_kod": "Y082",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; iki kısa cümle."
+   },
+   {
+    "kor_kod": "Y084",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; anlam ve kesinlik korunmuş, iki cümleye düzgün bölünmüş."
+   },
+   {
+    "kor_kod": "Y086",
+    "imla_noktalama": 4,
+    "dogallik": 3,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"bir 30 dakika kadar\" doğal olmayan bir söyleyiş; \"trafik fena sıkıştı\" konuşma diline uygun."
+   },
+   {
+    "kor_kod": "Y088",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok; tutarlı resmî dil ve yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y090",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"Geliyorum, yakında oradayım!\" otuz dakikalık gecikmeyle çelişiyor; \"çok sevinirim\" biraz yapay."
+   },
+   {
+    "kor_kod": "Y092",
+    "imla_noktalama": 5,
+    "dogallik": 4,
+    "gorev_uyumu": 5,
+    "akicilik": 4,
+    "gerekce": "\"ikamet etmekteyim. Oturduğum sokaktaki\" anlamca tekrarlı ve \"gereğinin yapılmasını arz ederim\" ağır. Yer tutucular tam."
+   },
+   {
+    "kor_kod": "Y094",
+    "imla_noktalama": 5,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "\"önemli bir işlev üstleniyor\" çeviri kokulu kalıp; cümle yapısı büyük ölçüde kaynakla aynı."
+   },
+   {
+    "kor_kod": "Y096",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Düzeltmeler doğru ve virgüller yerinde. Yalnız girdideki \"TDK'ya\" biçimi \"TDK'ye\" yapılmış."
+   }
+  ]
+ }
+]

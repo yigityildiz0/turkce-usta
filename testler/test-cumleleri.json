@@ -1,0 +1,58 @@
+[
+  {
+    "kimlik": "a",
+    "tur": "basit",
+    "baslik": "Yazım ve noktalama düzeltme",
+    "talimat": "Aşağıdaki cümledeki yazım ve noktalama hatalarını TDK kurallarına göre düzelt. Anlamı ve cümle yapısını koru; yalnız düzeltilmiş cümleyi ver.",
+    "girdi": "Sende yarınki toplantıya gelecekmisin, yoksa raporu TDK'ya göre düzeltip saat 14:30'da Ayşeye gönderdikten sonra eve mi gideceksin, çünkü bende bilmiyorumki kimler gelecek."
+  },
+  {
+    "kimlik": "b",
+    "tur": "basit",
+    "baslik": "Kısa WhatsApp mesajı",
+    "talimat": "Bir arkadaşına WhatsApp'tan gönderilecek kısa bir mesaj yaz: bu akşamki yemeğe yaklaşık 30 dakika gecikeceksin, trafik çok yoğun, masayı tutmalarını ve siparişe başlamalarını istiyorsun. Doğal, samimi, tek mesaj olsun.",
+    "girdi": ""
+  },
+  {
+    "kimlik": "c",
+    "tur": "basit",
+    "baslik": "Çeviri kokan cümleyi doğallaştırma",
+    "talimat": "Aşağıdaki cümle İngilizceden çevrilmiş gibi duruyor. Anlamını koruyarak doğal Türkçeyle yeniden yaz; yalnız yeni cümleyi ver.",
+    "girdi": "Bu yeni özellik, kullanıcıların kendi verilerini daha etkili bir şekilde yönetmelerine olanak sağlayarak önemli bir rol oynamaktadır."
+  },
+  {
+    "kimlik": "d",
+    "tur": "basit",
+    "baslik": "Kısa ürün açıklaması",
+    "talimat": "Bir e-ticaret sitesi için 2-3 cümlelik ürün açıklaması yaz. Ürün: paslanmaz çelik termos, 500 ml, sıcak içeceği 12 saat, soğuk içeceği 24 saat korur, bulaşık makinesinde yıkanabilir. Verilen bilgilerin dışında özellik uydurma.",
+    "girdi": ""
+  },
+  {
+    "kimlik": "e",
+    "tur": "karmaşık",
+    "baslik": "YZ kalıplarıyla dolu paragrafı sadeleştirme",
+    "talimat": "Aşağıdaki paragrafı yapay zekâ kokan kalıplardan arındırıp doğal ve sade Türkçeyle yeniden yaz. Kaynakta olmayan bilgi, kurum adı veya sayı ekleme; bilgileri silme.",
+    "girdi": "Günümüzün hızla değişen dünyasında, düzenli egzersiz yapmak sağlıklı bir yaşam için büyük bir önem taşımaktadır. Önemle belirtmek gerekir ki, egzersiz sadece fiziksel sağlığı iyileştirmekle kalmaz, aynı zamanda zihinsel sağlığa da katkı sağlamaktadır. Bu bağlamda yürüyüş, yüzme ve bisiklet gibi aktiviteler etkili, erişilebilir ve sürdürülebilir seçenekler olarak öne çıkmaktadır. Uzmanlara göre haftada en az 150 dakika orta yoğunlukta egzersiz yapılması önerilmektedir. Sonuç olarak şunu söyleyebiliriz ki, egzersiz hayatımızın vazgeçilmez bir parçası olmalıdır."
+  },
+  {
+    "kimlik": "f",
+    "tur": "karmaşık",
+    "baslik": "Resmî dilekçe",
+    "talimat": "Bir belediyeye verilecek resmî bir dilekçe yaz: oturduğun sokaktaki sokak lambası üç haftadır yanmıyor, akşamları yol karanlık kalıyor ve yayalar için tehlike oluşturuyor; lambanın onarılmasını istiyorsun. Ad soyad, adres, belediye adı ve tarih için köşeli ayraçlı yer tutucu kullan (ör. [AD SOYAD]); uydurma bilgi yazma.",
+    "girdi": ""
+  },
+  {
+    "kimlik": "g",
+    "tur": "karmaşık",
+    "baslik": "Teknik kavramı sade anlatma",
+    "talimat": "Web tarayıcısındaki önbelleğin (cache) ne olduğunu ve neden bazen 'önbelleği temizleyin' denildiğini teknik bilgisi olmayan bir okura 4-5 cümlelik tek paragrafta anlat. Sade ama teknik olarak doğru olsun.",
+    "girdi": ""
+  },
+  {
+    "kimlik": "h",
+    "tur": "karmaşık",
+    "baslik": "Edilgen yığınlı akademik cümleyi doğallaştırma",
+    "talimat": "Aşağıdaki akademik cümleyi doğal akademik Türkçeye çevir. Anlamı ve bulgunun kesinlik derecesini koru; gerekirse iki cümleye bölebilirsin. Yalnız yeni metni ver.",
+    "girdi": "Katılımcılara uygulanan anket sonuçlarının analiz edilmesi sonucunda, egzersiz sıklığının artırılmasının uyku kalitesi üzerinde olumlu bir etkiye sahip olduğu tespit edilmiş olup, bu durumun yaş grupları arasında farklılık gösterdiği de ayrıca gözlemlenmiştir ki bu bulgu literatür ile uyumluluk göstermektedir."
+  }
+]

@@ -1,0 +1,305 @@
+[
+ {
+  "puanlayici": 3,
+  "puanlar": [
+   {
+    "kor_kod": "Y015",
+    "imla_noktalama": 2,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 2,
+    "gerekce": "Doğru virgüller silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Cümle sonda \"?\" ile bitse de virgülsüz uzun yapı nefessiz okunuyor."
+   },
+   {
+    "kor_kod": "Y033",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y039",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru."
+   },
+   {
+    "kor_kod": "Y067",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru."
+   },
+   {
+    "kor_kod": "Y069",
+    "imla_noktalama": 2,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 2,
+    "gerekce": "Doğru virgüller silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Cümle sonda \"?\" ile bitse de virgülsüz uzun yapı nefessiz okunuyor."
+   },
+   {
+    "kor_kod": "Y096",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru."
+   },
+   {
+    "kor_kod": "Y001",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]"
+   },
+   {
+    "kor_kod": "Y017",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru."
+   },
+   {
+    "kor_kod": "Y035",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 4,
+    "gerekce": "Girdide doğru olan virgül \"gideceksin; çünkü\" diye noktalı virgüle çevrilmiş; gereksiz değişiklik ama anlam bozulmuyor. Diğer düzeltmeler ve sondaki \"?\" doğru."
+   },
+   {
+    "kor_kod": "Y043",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 3,
+    "akicilik": 4,
+    "gerekce": "Soru içeren cümle \"kimler gelecek.\" diye noktayla bitmiş, soru işareti kaçırılmış. Yazım düzeltmeleri ve virgüller doğru."
+   },
+   {
+    "kor_kod": "Y068",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Cümle \"gideceksin? Çünkü\" diye ikiye bölünmüş; yapıyı hafifçe değiştiriyor, imla doğru."
+   },
+   {
+    "kor_kod": "Y085",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]"
+   }
+  ]
+ },
+ {
+  "puanlayici": 2,
+  "puanlar": [
+   {
+    "kor_kod": "Y096",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm hatalar doğru düzeltilmiş, \"TDK'ye\" ve virgül doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y085",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]"
+   },
+   {
+    "kor_kod": "Y069",
+    "imla_noktalama": 2,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 2,
+    "gerekce": "Doğru olan iki virgül silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Virgülsüz uzun cümle okunurluğu düşürüyor ve yapıyı bozuyor."
+   },
+   {
+    "kor_kod": "Y068",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y067",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y043",
+    "imla_noktalama": 3,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Diğer düzeltmeler ve virgüller doğru, ancak soru cümlesi \"kimler gelecek.\" diye noktayla bitmiş; soru işareti kaçırılmış."
+   },
+   {
+    "kor_kod": "Y039",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y035",
+    "imla_noktalama": 4,
+    "dogallik": 4,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Sonda \"?\" var, düzeltmeler doğru. Girdideki doğru virgül \"gideceksin; çünkü\" diye noktalı virgüle çevrilmiş, bu gereksiz bir değişiklik."
+   },
+   {
+    "kor_kod": "Y033",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y017",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y015",
+    "imla_noktalama": 2,
+    "dogallik": 3,
+    "gorev_uyumu": 3,
+    "akicilik": 2,
+    "gerekce": "Doğru olan iki virgül silinmiş: \"gelecek misin yoksa\" ve \"gideceksin çünkü\". Virgülsüz uzun cümle okunurluğu düşürüyor ve yapıyı bozuyor."
+   },
+   {
+    "kor_kod": "Y001",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm düzeltmeler doğru. \"gideceksin? Çünkü\" bölmesi yapıyı hafifçe değiştiriyor. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]"
+   }
+  ]
+ },
+ {
+  "puanlayici": 1,
+  "puanlar": [
+   {
+    "kor_kod": "Y001",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "\"TDK'ya göre\" olduğu gibi kalmış, doğrusu \"TDK'ye\"; öbür düzeltmeler (sen de, misin, 14.30, Ayşe'ye, ben de, ki) doğru. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y015",
+    "imla_noktalama": 3,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 3,
+    "gerekce": "Yazım düzeltmeleri ve \"TDK'ye\" doğru, sondaki \"?\" var; ama doğru olan iki virgül silinmiş (\"misin yoksa\", \"gideceksin çünkü\"). Bu yüzden uzun cümle tek solukta okunuyor."
+   },
+   {
+    "kor_kod": "Y017",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y033",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok."
+   },
+   {
+    "kor_kod": "Y035",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Düzeltmeler doğru, ama girdide doğru olan \"gideceksin, çünkü\" virgülü noktalı virgüle çevrilmiş (\"gideceksin; çünkü\"). Bu gereksiz bir noktalama değişikliği."
+   },
+   {
+    "kor_kod": "Y039",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y043",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Yazım düzeltmeleri ve virgüller doğru, ama soru cümlesi sonda nokta ile bitmiş (\"kimler gelecek.\"); \"?\" beklenirdi."
+   },
+   {
+    "kor_kod": "Y067",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y068",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   },
+   {
+    "kor_kod": "Y069",
+    "imla_noktalama": 3,
+    "dogallik": 3,
+    "gorev_uyumu": 4,
+    "akicilik": 3,
+    "gerekce": "Yazım düzeltmeleri ve \"TDK'ye\" doğru, sondaki \"?\" var; ama doğru olan iki virgül silinmiş (\"misin yoksa\", \"gideceksin çünkü\"). Bu yüzden uzun cümle tek solukta okunuyor."
+   },
+   {
+    "kor_kod": "Y085",
+    "imla_noktalama": 4,
+    "dogallik": 5,
+    "gorev_uyumu": 5,
+    "akicilik": 5,
+    "gerekce": "Kusur yok. [Elle düzeltme: çıktı 'TDK'ya' biçimini düzeltmemiş; puanlayıcının kaçırdığı bu hata için imla 4'e indirildi.]"
+   },
+   {
+    "kor_kod": "Y096",
+    "imla_noktalama": 5,
+    "dogallik": 5,
+    "gorev_uyumu": 4,
+    "akicilik": 5,
+    "gerekce": "Tüm yazım ve noktalama düzeltmeleri doğru, \"TDK'ye\" dahil. \"gideceksin? Çünkü\" şeklinde ikiye bölme yapıyı hafifçe değiştiriyor."
+   }
+  ]
+ }
+]
